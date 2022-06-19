@@ -1,0 +1,76 @@
+    <div class="list_color">
+        <p class="info" id="info_color">Màu </p>
+        <ul class="chosse-color" id="option_color ">
+                            <li  data="color_item" name="color_title"
+                    name-item="Đen"
+                    color_id="5"
+                    class="item_price_2_color color_item color_vina_click a-option_color a-click-sur active"
+                    data-toggle="tab" href="#board5"
+                >
+                    <!-- <img src="http://vina//modules/products/assets/images/check.svg" alt="img"> -->
+                    <p style="width: 100%;height: 100%;border-radius: 50% ">Đen</p>
+                </li>
+                                <li  data="color_item" name="color_title"
+                    name-item="Trắng"
+                    color_id="6"
+                    class="item_price_2_color color_item color_vina_click a-option_color a-click-sur "
+                    data-toggle="tab" href="#board6"
+                >
+                    <!-- <img src="http://vina//modules/products/assets/images/check.svg" alt="img"> -->
+                    <p style="width: 100%;height: 100%;border-radius: 50% ">Trắng</p>
+                </li>
+                                <li  data="color_item" name="color_title"
+                    name-item="Đỏ"
+                    color_id="7"
+                    class="item_price_2_color color_item color_vina_click a-option_color a-click-sur "
+                    data-toggle="tab" href="#board7"
+                >
+                    <!-- <img src="http://vina//modules/products/assets/images/check.svg" alt="img"> -->
+                    <p style="width: 100%;height: 100%;border-radius: 50% ">Đỏ</p>
+                </li>
+                                <li  data="color_item" name="color_title"
+                    name-item="Xanh lá cây"
+                    color_id="8"
+                    class="item_price_2_color color_item color_vina_click a-option_color a-click-sur "
+                    data-toggle="tab" href="#board8"
+                >
+                    <!-- <img src="http://vina//modules/products/assets/images/check.svg" alt="img"> -->
+                    <p style="width: 100%;height: 100%;border-radius: 50% ">Xanh lá cây</p>
+                </li>
+                                <li  data="color_item" name="color_title"
+                    name-item="Xanh Lam"
+                    color_id="9"
+                    class="item_price_2_color color_item color_vina_click a-option_color a-click-sur "
+                    data-toggle="tab" href="#board9"
+                >
+                    <!-- <img src="http://vina//modules/products/assets/images/check.svg" alt="img"> -->
+                    <p style="width: 100%;height: 100%;border-radius: 50% ">Xanh Lam</p>
+                </li>
+                        </ul>
+        <input type="hidden" name="color_id_vinashoes" id="color_id_vinashoes" value="5">
+    </div>
+
+<script>
+    $(".item_price_2_color").click(function () {
+
+        // var color   = $('#color_id_vinashoes').val();
+        var size   = $('#size_id_vinashoes').val();
+        var color = $(this).attr("color_id");
+        // alert(color)
+        // console.log(color_2);
+        var id_shop    = $('#product_id').val();
+        $.ajax({
+
+            type: 'GET',
+            url: '/index.php?module=products&view=product&raw=1&task=get_price_shop&id='+ id_shop + '&color=' + color + '&size=' + size,
+            dataType : 'html',
+            success : function(data){
+
+                $("#price_vinashoes").html(data);
+                // $('#district').removeAttr('disabled');
+                return true;
+            },
+            error : function(XMLHttpRequest, textStatus, errorThrown) {}
+        });
+    });
+</script>

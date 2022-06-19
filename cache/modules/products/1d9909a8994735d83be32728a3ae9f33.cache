@@ -1,0 +1,34 @@
+ FROM fs_products
+						  WHERE ( category_id = 1932 
+						  	OR category_id_wrapper like "%,1932,%" )
+						  	AND published = 1
+						  	 ORDER BY  is_hot DESC 
+    <div class="image-check item_sp  mg-top   col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <a class="img" href="http://homefarm.local:800/nac-lung-bo-mat-nhap-khau-dp1063.html">
+            <img src="http://homefarm.local:800/images/products/2021/12/14/tiny/68_1639449000.png" alt="Nạc lưng bò mát nhập khẩu">
+        </a>
+        <a class="name_sp" href="http://homefarm.local:800/nac-lung-bo-mat-nhap-khau-dp1063.html">Nạc lưng bò mát nhập khẩu</a>
+        <div class="money_sp">
+            <p class="text-price" >80.000đ</p>
+                            <p class="text-price-old">800.000đ</p>
+                <p class="giamgia">-90%</p>
+            
+        </div>
+        <a class="a-more" href="http://homefarm.local:800/nac-lung-bo-mat-nhap-khau-dp1063.html">CHỌN MUA</a>
+    </div>
+
+
+    <div class="image-check item_sp  mg-top   col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <a class="img" href="http://homefarm.local:800/nac-lung-bo-mat-nhap-khau-1-dp1064.html">
+            <img src="http://homefarm.local:800/images/products/2021/12/14/tiny/68_1639449032.png" alt="Nạc lưng bò mát nhập khẩu">
+        </a>
+        <a class="name_sp" href="http://homefarm.local:800/nac-lung-bo-mat-nhap-khau-1-dp1064.html">Nạc lưng bò mát nhập khẩu</a>
+        <div class="money_sp">
+            <p class="text-price" >90.000đ</p>
+                            <p class="text-price-old">450.000đ</p>
+                <p class="giamgia">-80%</p>
+            
+        </div>
+        <a class="a-more" href="http://homefarm.local:800/nac-lung-bo-mat-nhap-khau-1-dp1064.html">CHỌN MUA</a>
+    </div>
+

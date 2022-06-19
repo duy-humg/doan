@@ -1,0 +1,64 @@
+
+
+<ul>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(94)">Sóc Trăng</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(92)">Cần Thơ</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(87)">Đồng Tháp</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(84)">Trà Vinh</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(83)">Bến Tre</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(82)">Tiền Giang</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(8)">Tuyên Quang</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(79)">TP HCM</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(77)">Bà Rịa - Vũng Tàu</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(72)">Tây Ninh</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(62)">Kon Tum</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(60)">Bình Thuận</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(58)">Ninh Thuận</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(46)">Thừa Thiên Huế</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(45)">Quảng Trị</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(42)">Hà Tĩnh</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(38)">Thanh Hóa</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(34)">Thái Bình</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(25)">Phú Thọ</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(19)">Thái Nguyên</a>
+        </li>
+    </ul>

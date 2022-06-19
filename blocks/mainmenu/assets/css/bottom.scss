@@ -1,0 +1,33 @@
+.list_menu_ft{
+	.title-menu-ft{
+		font-weight: bold;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+		h5 {
+			margin: 10px 0;
+			color: #888888;
+			font-size: 13px;
+			font-weight: bold;
+			padding: 0 5px;
+		}
+	}
+
+	ul{
+		li{
+			padding: 5px 0px;
+			a{
+				font-size: 13px;
+				//color: #ffffff;
+				color: #888888;
+				padding: 0 5px;
+				text-decoration: none;
+				//background: url(../images/cham1.png) left 1px top 11px no-repeat;
+
+				//&:hover {
+				//	color: #ffffff;
+				//	background: url(../images/cham.png) left 1px top 11px no-repeat;
+				//}
+			}
+		}
+	}
+}

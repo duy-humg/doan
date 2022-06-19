@@ -1,0 +1,7 @@
+
+  SELECT *
+                        FROM fs_products 
+                        WHERE published = 1   AND `name` like '%THU·%'
+                      
+                        LIMIT 20
+                        {"query":"THU\u00b7","suggestions":[]}

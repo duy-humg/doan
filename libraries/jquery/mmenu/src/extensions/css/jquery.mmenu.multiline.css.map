@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;EAEE;AAKF,AAIC,QAJO,AAAA,aAAa,CAAC,YAAY,GAAG,EAAE,GAIpC,CAAC;AAJJ,QAAQ,AAAA,aAAa,CAAC,YAAY,GAAG,EAAE,GAKpC,IAAI;AAJP,YAAY,AAAA,aAAa,GAAG,EAAE;AAC9B,YAAY,GAAG,EAAE,AAAA,aAAa,GAE3B,CAAC;AAHJ,YAAY,AAAA,aAAa,GAAG,EAAE;AAC9B,YAAY,GAAG,EAAE,AAAA,aAAa,GAG3B,IAAI,CACN;EACC,aAAa,EAAE,IAAI;EACnB,WAAW,EAAE,MAAM;CACnB",
+    "sources": [
+        "jquery.mmenu.multiline.scss",
+        "../../core/css/_inc/_variables.scss",
+        "../../core/css/_inc/_mixins.scss",
+        "../../core/css/_inc/_sizing.scss",
+        "../../core/css/_inc/_colors.scss"
+    ],
+    "names": [],
+    "file": "jquery.mmenu.multiline.css"
+}

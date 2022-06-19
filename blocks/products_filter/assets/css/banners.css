@@ -1,0 +1,72 @@
+.banner-list .banners-item {
+  float: left;
+  display: inline-block;
+}
+
+.banner-list .banners-item img {
+  margin: 0 auto;
+  display: block;
+}
+
+.banner-list .banners-item .border-image {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 14px;
+}
+
+.banner-list .banners-item:last-child .border-image {
+  margin-right: 0;
+}
+
+.banners-default_home {
+  float: left;
+  width: 100%;
+}
+
+.banners-default_home .banners-item {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.banners-default_home .banners-item .name {
+  font-size: 14px;
+  line-height: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-weight: normal;
+  background-color: rgba(0, 0, 0, 0.33);
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.banners-default_home .banners-item:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media (max-width: 575.98px) {
+  #myCarousel {
+    display: none;
+  }
+  .banner-list {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-inner > .item > a > img {
+    float: right;
+    height: 420px;
+  }
+}
+/*# sourceMappingURL=banners.css.map */

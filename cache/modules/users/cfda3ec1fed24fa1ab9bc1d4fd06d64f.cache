@@ -1,0 +1,87 @@
+<a href="javascript:void(0)" id="close-cart">
+    <img src="http://tantien.local:800/images/close-cart.png" alt="close cart"/>
+</a>
+<div>
+    <div class="row dkdn">
+        <div class=" col-md-6 col-sm-12">
+            <form action="http://tantien.local:800/thong-tin-ca-nhan.html" name="login_form_pay"
+                  class="login_form_pay" method="post">
+                <div class="body-content--1a">
+                    <h4>ĐĂNG NHẬP</h4>
+                    <div class="main-content--1a clearfix">
+                        <div class="clearfix">
+                            <label for="dk_email">Email</label>
+                            <input type="text" placeholder="Nhập email"
+                                   class="dk_email"
+                                   name="dk_email" id="dk_email" data-error="Không đúng định dạng email" required/>
+                        </div>
+                        <div class="clearfix">
+                            <label for="dk_password">Mật khẩu</label>
+                            <input type="password" placeholder="Mật khẩu từ 6 đến 32 ký tự"
+                                   class="dk_password"
+                                   name="dk_password" id="dk_password" required/>
+                        </div>
+                        <input type="hidden" name="module" value="users">
+                        <input type="hidden" name="view" value="users">
+                        <input type="hidden" name="task" value="login_save">
+                        <input type="hidden" name='return' value=''/>
+                        <p style="padding-bottom: 10px; padding-top: 0;" class="forget-password"><a style="color: #006cc6;" href="#"
+                                                                          onclick='forget()'>Quên mật khẩu?</a>
+                        </p>
+                        <input style="font-size: 16px;color: #ffffff; background: #f7941e;" class="submit1"
+                               type="submit" value="ĐĂNG NHẬP">
+                        <p class="login-order text-center"><span>Hoặc đăng nhập bằng</span></p>
+                        <p class="text-center login-using-sosial mg"><a
+                                    href="http://tantien.local:800/dang-nhap-fb.html"></a><a
+                                    href="http://tantien.local:800/oauth2callback"></a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="form-sing-out col-md-6 col-sm-12">
+            <form class="form-horizontal" method="post" action="#" name="register_form_user">
+                <h3>TẠO TÀI KHOẢN MỚI</h3>
+                <div class="form-list_inp">
+                    <div class="clearfix">
+                        <label for="dk_name">Họ và tên</label>
+                        <input type="text" placeholder="Vui lòng nhập họ và tên"
+                               class="dk_name"
+                               id="dk_name" name="dk_name" required>
+                    </div>
+                    <div class="clearfix">
+                        <label for="dk_email1">Email</label>
+                        <input type="email" placeholder="Vui lòng nhập email của bạn"
+                               class="dk_email" id="dk_email1" name="dk_email1" data-error="Không đúng định dạng email"
+                               required>
+                    </div>
+                    <div class="clearfix">
+                        <label for="dk_password1">Mật khẩu</label>
+                        <input type="password" placeholder="Vui lòng nhập mật khẩu"
+                               class="dk_password" id="dk_password1" name="dk_password1" required>
+                    </div>
+                    <div class="clearfix">
+                        <label for="re_password">Nhập lại mật khẩu</label>
+                        <input type="password" placeholder="Vui lòng nhập lại mật khẩu"
+                               class="re_password" id="re_password" name="re_password" required>
+                    </div>
+                    <input type="submit" value="Tạo tài khoản" class="submit_dk"/>
+                    <!--                    <p class="login-order text-center"><span>Hoặc đăng nhập bằng</span></p>-->
+                    <!--                    <p class="text-center login-using-sosial"><a-->
+                    <!--                                href="-->
+                    <!--"></a><a-->
+                    <!--                                href="-->
+                    <!--"></a>-->
+                    <!--                    </p>-->
+                    <!--                    <p class="text-center agant-login">Bạn đã có tài khoản? <a href="#" onclick='login()'>Đăng nhập</a>-->
+                    <!--                        tại-->
+                    <!--                        đây</p>-->
+                    <input type="hidden" name="module" value="users">
+                    <input type="hidden" name="view" value="users">
+                    <input type="hidden" name="task" value="register_save">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

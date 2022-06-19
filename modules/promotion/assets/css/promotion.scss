@@ -1,0 +1,143 @@
+.box-shadow-ql {
+    background: #fee974;
+
+    .main-breadcrumbs {
+        display: none;
+    }
+
+    .promotion-list {
+        .list_promotion_content {
+        	margin-bottom: 20px;
+            .title-promotion {
+            	margin-top: 15px;
+                background: url(../images/title-promotion.png) no-repeat center;
+                font-size: 20px;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-align: center;
+                color: #fff;
+                line-height: 60px;
+                margin-bottom: 35px;
+            }
+
+            .list_cat_promotion {
+                background: #fff;
+                padding: 24px;
+                margin-bottom: 40px;
+
+                .image-check {
+                    padding: 15px 20px;
+
+                    a {
+                        display: block;
+
+                        img {
+                            display: block;
+                            margin: 0 auto;
+                            margin-bottom: 15px;
+                        }
+
+                        .title-book {
+                            margin-bottom: 5px;
+                            height: 40px;
+                            overflow: hidden;
+                        }
+
+                        .price-book {
+                            height: 26px;
+
+                            .final-price {
+                                color: #ce0021;
+                                margin-right: 8px;
+                                font-weight: bold;
+                            }
+
+                            .price-regular {
+                                color: #999;
+                                text-decoration: line-through;
+                            }
+
+                            .sale-tag-square {
+                                float: right;
+                                background: #ce0021;
+                                border-radius: 15px;
+                                color: #fff;
+                                padding: 3px 12px;
+                            }
+                        }
+                    }
+                    .buy-now{
+                    	margin-top: 10px;
+                    	a{
+                    		display: block;
+                    		background: #00a78d;
+                    		border-radius: 5px;
+                    		font-size: 13px;
+                    		text-transform: uppercase;
+                    		text-align: center;
+                    		color: #fff;
+                    		padding: 7px;
+                    	}
+                    }
+
+                    &:hover {
+                        -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                    }
+                }
+                
+
+                .hide-class{
+                	display: none;
+                }
+                [class^="hide-class-"] { 
+                    display: none;
+                }
+                .show_all{
+                	margin-top: 20px;
+                	text-align: center;
+                	.block_div{
+            		    background: #ce0021;
+					    color: #fff;
+					    font-size: 20px;
+					    text-transform: uppercase;
+					    padding: 15px 68px;
+					    border-radius: 5px;
+					    cursor: pointer;
+					    display: inline-block;
+                	}
+                    [class^="block_div_"] { 
+                        background: #ce0021;
+                        color: #fff;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                        padding: 15px 68px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        display: inline-block;
+                    }
+                    .hide_div{
+                        @extend .block_div;
+                        display: none;
+                    }
+                    [class^="hide_div_"] {
+                        background: #ce0021;
+                        color: #fff;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                        padding: 15px 68px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .image-check {
+        width: 20%;
+    }
+}

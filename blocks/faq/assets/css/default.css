@@ -1,0 +1,53 @@
+.title-form-block h2 {
+  background: #ac0000;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px;
+}
+
+.title-form-block h2 i {
+  margin-right: 10px;
+}
+
+.faq_form {
+  background: #ebf0f4;
+  padding: 15px;
+  margin-bottom: 18px;
+}
+
+.faq_form form input[type="text"] {
+  width: 100%;
+  padding: 0 13px;
+  line-height: 34px;
+  height: 36px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+
+.faq_form form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 13px;
+}
+
+.faq_form form input[type="submit"] {
+  color: #fff;
+  line-height: 36px;
+  background: #0072bb;
+  border: none;
+  width: 49%;
+  text-align: center;
+}
+
+.faq_form form input[type="reset"] {
+  color: #0072bb;
+  line-height: 34px;
+  background: #fff;
+  border: none;
+  border: 1px solid #0072bb;
+  width: 48%;
+  text-align: center;
+}
+/*# sourceMappingURL=default.css.map */

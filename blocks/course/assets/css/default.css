@@ -1,0 +1,82 @@
+.block_banners .banners-item {
+	display: block;
+	text-align: center;
+}
+.pos-top{
+	position: relative;
+}
+#block-course{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#block-course ul {
+    width: 1150px;
+    margin: auto;
+}
+#block-course ul li{
+	background: url(../images/icon-bg.png) repeat;
+	width: 25%;
+	float: left;
+	padding: 22px 10px 22px 68px;
+	border-left: 1px solid #ddd;
+	position: relative;
+	cursor: pointer;
+}
+#block-course ul li:first-child{
+	border-left: 0;
+}
+#block-course ul li:hover, #block-course ul li.active{
+	background: url(../images/icon-bg-active.png) repeat;
+}
+#block-course ul li:before{
+	position:absolute;
+	content:'';
+	background-image:url(../images/bg-icon.png);
+	background-repeat: no-repeat;
+    background-position: 0px 0px;
+	width:42px;
+	height:42px;
+	top: 25px;
+	left: 15px;
+}
+#block-course ul li.course-list:before{
+    background-position: -45px 0px;
+}
+#block-course ul li.course-question:before{
+    background-position: -85px 0px;
+}
+#block-course ul li.course-video:before{
+    background-position: -126px 0px;
+}
+#block-course ul li a{
+	font-size: 14px;
+	color: #fff;
+	line-height: 25px;
+}
+#block-course ul li a span{
+	position: relative;
+}
+#block-course ul li a span.icon-title{
+	font-size: 18px;
+	font-weight:bold;
+}
+#block-course ul li a span.icon-title:after{
+	position:absolute;
+	content:'';
+	background-image:url(../images/bg-icon.png);
+	background-repeat: no-repeat;
+    background-position: 2px -45px;
+	width:15px;
+	height:15px;
+	top:4px;
+	right:-20px;
+}
+#block-course ul li:hover a span.icon-title:after,
+#block-course ul li.active a span.icon-title:after{
+    background-position: -22px -45px;
+	width:15px;
+	height:12px;
+	top:4px;
+	right:-25px;
+}

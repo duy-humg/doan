@@ -1,0 +1,20 @@
+.new_only{
+	a{
+		display: block;
+		position: relative;
+		box-shadow: 1px 1px 4px 1px #ccc;
+		img{
+
+		}
+		p{
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			background: #005b95b0;
+			background-color: rgba(0, 91, 149, 0.69);
+			font-size: 14px;
+			color: #fff;
+			padding: 15px 10px;
+		}
+	}
+}

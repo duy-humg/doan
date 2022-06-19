@@ -1,0 +1,178 @@
+.form-login {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 30px 0;
+
+    .tip-title {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    form {
+        input[type="text"] {
+            width: 100%;
+            border: 1px solid #dddddd;
+            height: 40px;
+            padding: 0 14px;
+            margin-bottom: 13px;
+            border-radius: 5px;
+        }
+
+        input[type="radio"] {
+            vertical-align: middle;
+            margin: 0;
+            margin-right: 10px;
+        }
+
+        .forget-password {
+            margin-bottom: 15px;
+
+            a {
+                color: #007ff0;
+            }
+        }
+
+        input[type="submit"] {
+            font-size: 16px;
+            color: #fff;
+            background: #ce0021;
+            border-radius: 5px;
+            width: 100%;
+            height: 40px;
+            margin-bottom: 14px;
+        }
+
+        .radio-check-member {
+            label {
+                margin: 0;
+                font-weight: normal;
+            }
+
+            p {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.title-cart-right {
+    font-weight: normal;
+    margin-bottom: 8px;
+    border-left: 2px solid #ce0021;
+    padding-left: 10px;
+}
+
+.list-products-cart {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    .list-products {
+        padding: 20px;
+
+        ul {
+            li {
+                margin-bottom: 15px;
+                padding-bottom: 15px;
+                border-bottom: 1px dotted #ddd;
+
+                &:last-child {
+                    border-bottom: none;
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                }
+
+                p {
+                    text-align: right;
+                }
+
+                a {
+                    display: block;
+
+                    img {
+                        float: left;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .price-total {
+        padding: 20px;
+        background: #f2f3f5;
+
+        ul {
+            li {
+                margin-bottom: 12px;
+            }
+        }
+
+        p {
+            border-top: 1px dotted #ddd;
+            padding-top: 15px;
+        }
+
+        span {
+            float: right;
+        }
+
+        .red-price {
+            color: #ce0021;
+            font-size: 16px;
+        }
+
+        .blue-price {
+            font-size: 14px;
+            color: #007ff0;
+        }
+    }
+}
+
+
+
+@media (max-width: 575.98px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        margin: 0 0 1rem 0;
+    }
+
+    tr:nth-child(odd) {
+        background: #ccc;
+    }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 0;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    /*
+    Label the data
+You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+    */
+
+}

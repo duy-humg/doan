@@ -1,0 +1,13 @@
+
+
+<ul>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(60)">Bình Thuận</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(58)">Ninh Thuận</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(46)">Thừa Thiên Huế</a>
+        </li>
+    </ul>

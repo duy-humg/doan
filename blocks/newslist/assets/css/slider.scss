@@ -1,0 +1,58 @@
+h2.title-multi {
+    font-size: 18px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    background: url(../images/boder.jpg) repeat-x center;
+
+    span {
+        background: #fff;
+        padding-right: 10px;
+        a{
+            font-size: 14px;
+            color: #000;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.newslist-home-slider {
+    border: 1px solid #c9c9c9;
+    margin-bottom: 15px;
+        padding: 7px 10px;
+    box-shadow: 1px 1px 1px 0px #efefef;
+    .slick-prev, .slick-next{
+        width: 28px;
+        height: 28px;
+        &:before{
+            content: '';
+        }
+
+    }
+    .slick-prev{
+        background: url(../images/bottom_slider_01.png) no-repeat;
+        &:hover,&:focus{
+            background: url(../images/bottom_slider_01.png) no-repeat;
+        }
+    }
+    .slick-next{
+        background: url(../images/bottom_slider_03.png) no-repeat;
+        &:hover,&:focus{
+            background: url(../images/bottom_slider_03.png) no-repeat;
+        }
+    }
+    .slider-new {
+        .show-new-li {
+            padding: 10px;
+            a{
+                color: #333;
+            }
+            a:hover{
+                color: #ac0000;
+            }
+            h3{
+                font-size: 13px;
+                margin-top: 10px;
+            }
+        }
+    }
+}

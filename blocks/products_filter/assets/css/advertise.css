@@ -1,0 +1,36 @@
+.book1 {
+  display: block;
+  background-color: #ffffff;
+  width: 103%;
+  margin-top: 10px;
+}
+
+.book1 p {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+}
+
+.book1 img {
+  padding: 0 10px 10px;
+}
+
+.book2 {
+  display: block;
+  background-color: #ffffff;
+  width: 103%;
+  margin-top: 10px;
+}
+
+.book2 p {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+}
+
+.book2 img {
+  padding: 0 10px 10px;
+}
+/*# sourceMappingURL=advertise.css.map */

@@ -1,0 +1,50 @@
+
+
+<script>
+	function load_ajax_pagination($value){
+		$.get($value,{}, function(html){
+			$('#_info_comment').html(html);
+		    $('html, body').animate({scrollTop:$('#_info_comment').position().top}, 'slow');
+		});
+	}
+</script>
+    <div class='_contents comments_contents row-item'>
+        
+            <div class="comment-item comment-item-105 parent comment_level_0 comment_sub_0"   ><div class="content9_1"><img class="img_user img_ava" alt="noavarta"  src="http://vina/images/avt_cmt.png"><p class=" "><span class=""></span>
+                
+        </div><div class="row-item item-comment"><p class="name"><span class="user_name">Duy</span><p class="star-detail fl" data-rating="3"></p><span class="danhgia">duy  test</span><p class="content">ok</p><p class="date">10:03:02 25-03-2022 </p></div></div></div>            </div>
+    
+
+<script>
+    display_hidden_comment_form();
+
+    function display_hidden_comment_form() {
+        $('.button_reply').click(function () {
+            $(this).next().removeClass('hide');
+            $(this).addClass('hide');
+        });
+        $('.button_reply_close').click(function () {
+            $(this).parent().parent().parent().parent().addClass('hide');
+            $(this).parent().parent().parent().parent().parent().children('a').removeClass('hide');
+        });
+    }
+
+    $(document).ready(function () {
+        if ($('.star-detail').attr('data-rating')) {
+
+            $('.star-detail').raty({
+                readOnly: true,
+
+                score: function () {
+                    return $(this).attr('data-rating');
+                },
+                starOff: 'images/icon_sao3.png',
+                starOn: 'images/icon_sao1.png',
+                targetFormat: '{score}',
+
+            });
+        }
+
+    })
+
+</script>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        JQuery | Get all selected checkboxes in an array.
+    </title>
+    <style>
+        #GFG_UP {
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        #GFG_DOWN {
+            color: green;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<script src=
+                "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+</script>
+
+<body style="text-align:center;" id="body">
+<h1 style="color:green;">
+    GeeksforGeeks
+</h1>
+<p id="GFG_UP">
+</p>
+
+<input type="checkbox" name="type" value="GFG" /> GFG:
+<input type="checkbox" name="type" value="Geeks" /> Geeks:
+<input type="checkbox" name="type" value="Geek" /> Geek:
+<input type="checkbox" name="type" value="portal" /> portal:
+<br>
+<button>
+    click here
+</button>
+<p id="GFG_DOWN">
+</p>
+<script>
+    $('#GFG_UP')
+        .text('First check few elements then click on the button.');
+    $('button').on('click', function() {
+        var array = [];
+        $("input:checkbox[name=type]:checked").each(function() {
+            array.push($(this).val());
+        });
+        $('#GFG_DOWN').text(array);
+    });
+</script>
+</body>
+
+</html>

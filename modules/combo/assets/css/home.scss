@@ -1,0 +1,115 @@
+.slide_home{
+  margin-bottom: 20px;
+  .carousel-indicators{
+    margin-left: 0px!important;
+    right: 0px!important;
+    text-align: center;
+    width: 100%!important;
+  }
+
+  
+    .carousel-indicators li{
+      background: #00000061;
+      border: unset;
+    }
+    .carousel-indicators .active{
+      background: #F89A43;
+      border: 1px solid #fff;
+    }
+  
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.combo{
+  background: #fff;
+  padding: 20px;
+  .list_combo{
+    .item_sp{
+      margin-bottom: 20px;
+      @media (min-width: 1200px) {
+        width: 380px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 10px;
+      }
+      .img{
+        margin-bottom: 12px;
+        display: block;
+        img{
+          border-radius: 3px;
+        }
+      }
+      .name_sp{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+        font-family: Poppins-Medium;
+        text-align: center;
+        text-transform: capitalize;
+        display: block;
+        color: #333333;
+      }
+    }
+    .mg3{
+      margin-right: 0px;
+    }
+  }
+  .div-more{
+    margin-bottom: 14px;
+    margin-top: 20px;
+    .c-view-more{
+      text-align: center;
+      a{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 15px;
+        color: #999999;
+
+        background: #F3F7F9;
+        border-radius: 3px;
+        padding: 14px 66px;
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .combo{
+    padding: 20px 10px;
+    .list_combo .item_sp .img img{
+      max-width: 100%;
+    }
+  }
+  .menu_orther{
+    padding-bottom: 0px;
+  }
+  body header .header-logo{
+    padding: 30px 0px!important;
+  }
+  #main{
+    padding: 0px 0 75px 0;
+  }
+  .table-responsive{
+    border: unset;
+  }
+}
+@media(max-width: 550px){
+  
+  
+  .combo .list_combo .item_sp{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+  .main_ct{
+    .container{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+}

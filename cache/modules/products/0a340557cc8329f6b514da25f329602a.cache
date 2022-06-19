@@ -1,0 +1,37 @@
+<!--<div class="wrapper-tb-pop">-->
+<a href="javascript:void(0)" id="close-cart"></a>
+<div class="title_popup clearfix">
+    <p class="quan">1<span> sản phẩm</span></p>
+    <p class="price_tt">6.000đ</p>
+</div>
+<div class="sbmm">
+    <a href="https://tantien.phongcachso.com/gio-hang.html" class="btn order_now">Tiến hành
+        thanh toán ngay</a>
+</div>
+<div id="popup-cart">
+                        <div class="tr-pop-0 prd_detail">
+                        <div class="img_product">
+                            <a class="pull-left" href="https://tantien.phongcachso.com/bang-keo-si-simili-36cm-dung-dong-gay-sach-dong-cuon-dp120000.html">
+                                <img class="img-responsive" src="https://tantien.phongcachso.com/images/products/2020/06/18/resized/bang-keo-si-simili-36cm-dung-dong-gay-sach-dong-cuon-1_1592452641.jpg"
+                                     alt="Băng keo si simili 3.6cm dùng đóng gáy sách, đóng cuốn">
+                            </a>
+                        </div>
+                        <div class="name_prd">
+                            <a href="https://tantien.phongcachso.com/bang-keo-si-simili-36cm-dung-dong-gay-sach-dong-cuon-dp120000.html">Băng keo si simili 3.6cm dùng đóng gáy sách, đóng cuốn</a>
+                                                                                    <p class="price_prd">6.000đ</p>
+                        </div>
+                        <div class="del_prd">
+                            <a data-id="120000"
+                               data-tr="tr-pop-0"
+                               class="del-pro-link"
+                               href="#"
+                               title="">
+                                <img src="https://tantien.phongcachso.com/modules/products/assets/images/del_prd.png"
+                                     alt="Bỏ sản phẩm">
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+<a href="https://tantien.phongcachso.com/gio-hang.html" class="btn order_now now_">Xem và
+    chỉnh sửa giỏ hàng</a>
+<!--</div>-->

@@ -1,0 +1,177 @@
+
+.content1 {
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  margin: 15px 15px 0 15px;
+  padding-bottom: 5px;
+  @media (max-width: 767px) {
+    display: none;
+
+  }
+
+  .content1-left {
+    position: relative;
+    float: left;
+    width: 60%;
+    @media (max-width: 767px) {
+      display: block;
+      width: 100%;
+
+    }
+    .title {
+      line-height: 30px;
+      padding: 0 20px 20px 0;
+      font-size: 26px;
+      color: #fff;
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+    }
+  }
+
+  .content1-right {
+    float: right;
+    width: 50%;
+
+    ul {
+      list-style-type: none;
+
+      li {
+        float: none;
+
+        a {
+          display: flex;
+
+          img {
+            width: 61.5%;
+            float: left;
+            padding-bottom: 29px;
+            padding-left: 20px;
+          }
+
+          p {
+            color: #333333;
+            float: left;
+            word-wrap: break-word;
+            padding: 10px 0px 0px 15px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.content2-1 {
+  margin: 10px 15px;
+  .row {
+    margin: 0;
+    border-bottom: 1px solid #e5e5e5;
+
+  }
+}
+
+.next-prev-page {
+
+  ul {
+    width: 20%;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+
+    li {
+      border: 1px solid #e5e5e5;
+      margin: 0px 2px;
+
+      a {
+        padding: 5px;
+        color: #333333;
+      }
+
+      &:hover {
+        background-color: #252525;
+      }
+
+      &:hover > a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.img_ct {
+  max-width: 240px;
+
+}
+
+@media (min-width: 1200px) {
+  .col-lg-4 {
+    width: 27%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-8 {
+    width: 73%;
+  }
+}
+
+.content2-1 {
+  position: relative;
+  @media (max-width: 767px) {
+    display: none;
+  }
+  .title {
+    position: absolute;
+    bottom: 4px;
+    right: 7px;
+    padding: 0 20px 5px 20px;
+    font-size: 14px;
+    color: #ffffff;
+  }
+}
+
+@media(max-width: 767px) {
+  .content2-1a .img_mobile {
+    display: block;
+    text-align: center;
+  }
+}
+.new_mb .content2-1a{
+  border-bottom: 1px solid #eeeeee;
+}
+.content2-1a {
+  margin: 25px 0;
+  //line-height: 25px;
+  .content2-1b {
+    padding-left: 255px;
+    padding-right: 15px;
+    @media (max-width: 767px) {
+      padding: 15px;
+    }
+    .title1 {
+      line-height: 25px;
+      font-size: 20px;
+      color: #333333;
+      display: block;
+    }
+    time {
+      margin-bottom: 10px;
+      display: block;
+      font-size: 13px;
+      color: #999999;
+      padding-left: 25px;
+      background: url("../images/icon-clock.png") top 0 left 2px no-repeat;
+    }
+    p {
+      color: #666666;
+      font-size: 14px;
+    }
+  }
+}
+
+.content2-1c {
+  margin: 25px 0;
+}
+
+

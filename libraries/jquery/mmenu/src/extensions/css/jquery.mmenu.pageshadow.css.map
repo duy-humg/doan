@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;EAEE;AAKF,AAEC,QAFO,AAAA,cAAc,AAEpB,MAAM,CACP;EACC,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,IAAI;EACV,GAAG,EAAE,IAAI;EACT,OAAO,EAAE,EAAE;CACX;;AAZF,AAcC,QAdO,AAAA,cAAc,AAcpB,SAAS,AAAA,MAAM,CAChB;EACC,IAAI,EAAE,IAAI;EACV,KAAK,EAAE,IAAI;CACX;;AAlBF,AAoBC,QApBO,AAAA,cAAc,AAoBpB,QAAQ,AAAA,MAAM,EApBhB,QAAQ,AAAA,cAAc,AAqBpB,SAAS,AAAA,MAAM,CAChB;EACC,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;CACb;;AI8ED,AAEC,QAFO,AAAA,cAAc,AAEpB,MAAM,CACP;EAGE,UAAU,EHzFM,CAAC,CAAC,CAAC,CAAC,IAAI,CAAO,kBAAI;CGgGpC",
+    "sources": [
+        "jquery.mmenu.pageshadow.scss",
+        "../../core/css/_inc/_variables.scss",
+        "../../core/css/_inc/_mixins.scss",
+        "../../core/css/_inc/_sizing.scss",
+        "../../core/css/_inc/_colors.scss"
+    ],
+    "names": [],
+    "file": "jquery.mmenu.pageshadow.css"
+}

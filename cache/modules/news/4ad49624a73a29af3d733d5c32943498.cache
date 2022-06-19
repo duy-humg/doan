@@ -1,0 +1,24 @@
+    <div class="item_news">
+        <div class="div-img">
+            <a class="a-img" href="http://homefarm.local:800/bua-tiec-hon-10-trieu-dong-co-dau-bep-rieng-phuc-vu-tai-nha-n84.html">
+                <img src="http://homefarm.local:800/images/news/2021/12/normal/news_1640079102.png" alt="Bữa tiệc hơn 10 triệu đồng, có đầu bếp riêng phục vụ tại nhà">
+            </a>
+        </div>
+        <div class="info-news">
+            <a class="a-title" href="http://homefarm.local:800/bua-tiec-hon-10-trieu-dong-co-dau-bep-rieng-phuc-vu-tai-nha-n84.html">Bữa tiệc hơn 10 triệu đồng, có đầu bếp riêng phục vụ tại nhà</a>
+            <p class="p-time"><i class="fal fa-clock"></i> 16:31 21/12/2021</p>
+            <p class="p-summary">Bữa tiệc hơn 10 triệu đồng, có đầu bếp riêng phục vụ tại nhà</p>
+        </div>
+    </div>
+    <div class="item_news">
+        <div class="div-img">
+            <a class="a-img" href="http://homefarm.local:800/4-mon-an-kieu-han-quoc-hap-dan-cho-mua-dong-n83.html">
+                <img src="http://homefarm.local:800/images/news/2021/12/normal/news_1640079029.png" alt="4 món ăn kiểu Hàn Quốc hấp dẫn cho mùa đông">
+            </a>
+        </div>
+        <div class="info-news">
+            <a class="a-title" href="http://homefarm.local:800/4-mon-an-kieu-han-quoc-hap-dan-cho-mua-dong-n83.html">4 món ăn kiểu Hàn Quốc hấp dẫn cho mùa đông</a>
+            <p class="p-time"><i class="fal fa-clock"></i> 16:30 21/12/2021</p>
+            <p class="p-summary">Dịch vụ tổ chức tiệc trọn gói tại nhà được thực khách yêu thích vì tính riêng tư, sang trọng và an toàn khi tình hình dịch bệnh vẫn chưa chấm dứt.</p>
+        </div>
+    </div>

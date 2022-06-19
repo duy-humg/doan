@@ -1,0 +1,8 @@
+    <p class="infor-price_">
+        <span class="infor-price">
+              Hết hàng
+        </span>
+    </p>
+    <input type="hidden" id="price_input" name='price' value="0"/>
+    <input type="hidden" id="check_conhang" name='check_conhang' value="0"/>
+

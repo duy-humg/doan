@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAA;EAClB,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "slide_mobile.scss"
+    ],
+    "names": [],
+    "file": "slide_mobile.css"
+}

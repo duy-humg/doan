@@ -1,0 +1,140 @@
+
+
+<p class="text-chon">
+    <a class="a-ql"  onclick="ql_huyen()" href="javascript:void(0)"><i class="fal fa-chevron-left"></i></a>
+    Chọn Quận huyện Tại TP HCM</p>
+<input type="hidden" id="id_city_menu" value="79">
+<div class="nd_vitri">
+    <div class="input-search-vitri">
+        <input type="text" id="huyen_search" value="" placeholder="Tìm nhanh tỉnh thành, quận huyện...">
+    </div>
+    <div class="list_vitri">
+        <div class="box box-list-address">
+            <ul>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(787)">H. Cần Giờ</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(786)">H. Nhà Bè</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(785)">H. Bình Chánh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(784)">H. Hóc Môn</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(783)">H. Củ Chi</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(778)">Quận 7</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(777)">Quận Bình Tân</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(776)">Quận 8</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(775)">Quận 6</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(774)">Quận 5</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(773)">Quận 4</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(772)">Quận 11</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(771)">Quận 10</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(770)">Quận 3</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(769)">Quận 2</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(768)">Quận Phú Nhuận</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(767)">Quận Tân Phú</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(766)">Quận Tân Bình</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(765)">Quận Bình Thạnh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(764)">Quận Gò Vấp</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(763)">Quận 9</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(762)">Quận Thủ Đức</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(761)">Quận 12</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(760)">Quận 1</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+<script>
+
+    function xa(id) {
+        $.ajax({
+            url: "index.php?module=home&view=home&task=xa&raw=1",
+            type: 'GET',
+            data: {id: id},
+            dataType: 'html',
+            success: function (data) {
+
+                $(".chon-vitri").html(data);
+                // $(".item-service"+$i).remove();
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert('Có lỗi trong quá trình đưa lên máy chủ. Xin bạn vui lòng kiểm tra lỗi kết nối.');
+            }
+        });
+    }
+
+    $(document).ready(function () {
+
+        $("#huyen_search").keypress(function(){
+            huyen_search =  $("#huyen_search").val();
+            id_city_menu =  $("#id_city_menu").val();
+
+
+            let str = huyen_search;
+
+            if(str.length>=1){
+                $.ajax({
+                    url: "index.php?module=home&view=home&task=search_huyen&raw=1",
+                    type: 'GET',
+                    data: {huyen_search: huyen_search,id_city_menu:id_city_menu},
+                    dataType: 'html',
+                    success: function (data) {
+
+                        $(".box-list-address").html(data);
+                        // $(".item-service"+$i).remove();
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        alert('Có lỗi trong quá trình đưa lên máy chủ. Xin bạn vui lòng kiểm tra lỗi kết nối.');
+                    }
+                });
+            }
+        });
+    });
+
+
+
+
+</script>

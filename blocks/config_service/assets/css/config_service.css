@@ -1,0 +1,141 @@
+.config_service-default {
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -155px;
+  z-index: 1;
+}
+
+.config_service-default .row {
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.config_service-default .col-xs-12 {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.config_service-default .item-intro {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #cccccc;
+  background: #fff;
+  position: relative;
+}
+
+.config_service-default .item-intro h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #006cc6;
+  text-align: center;
+  padding: 25px 0 8px;
+}
+
+@media (max-width: 768px) {
+  .config_service-default .item-intro h3 {
+    font-size: 17px;
+  }
+}
+
+.config_service-default .item-intro summary {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.config_service-default .item-intro .contents ul {
+  height: 102px;
+  overflow: auto;
+}
+
+.config_service-default .item-intro .contents ul li {
+  font-size: 16px;
+  color: #333333;
+  margin: 0;
+  padding: 8px 0 8px 40px;
+  position: relative;
+}
+
+.config_service-default .item-intro .contents ul li:before {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("../images/danhmuc.png") center no-repeat;
+}
+
+@media (max-width: 768px) {
+  .config_service-default .item-intro .contents ul li {
+    font-size: 14px;
+  }
+}
+
+.config_service-default .item-intro .buy-ndt {
+  margin: 20px;
+  text-align: center;
+}
+
+.config_service-default .item-intro .buy-ndt a {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.config_service-default .item-intro .buy-ndt .link1 {
+  background: #f7941d;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.config_service-default .item-intro .buy-ndt .link2 {
+  color: #006cc6;
+}
+
+.config_service-default .sales-intro {
+  position: absolute;
+  top: 0;
+  width: 120px;
+  height: 132px;
+  padding: 35px 20px;
+  color: #fff;
+}
+
+.config_service-default .posis-1,
+.config_service-default .posis-3 {
+  background: url("../images/right-after.png") center no-repeat;
+  right: -90px;
+}
+
+@media (max-width: 1024px) {
+  .config_service-default .posis-1,
+  .config_service-default .posis-3 {
+    right: 0;
+  }
+}
+
+.config_service-default .posis-1,
+.config_service-default .posis-2 {
+  top: -100px;
+}
+
+.config_service-default .posis-3,
+.config_service-default .posis-4 {
+  bottom: -100px;
+}
+
+.config_service-default .posis-2,
+.config_service-default .posis-4 {
+  background: url("../images/left-after.png") center no-repeat;
+  left: -90px;
+}
+
+@media (max-width: 1024px) {
+  .config_service-default .posis-2,
+  .config_service-default .posis-4 {
+    left: 0;
+  }
+}
+/*# sourceMappingURL=config_service.css.map */

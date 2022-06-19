@@ -1,0 +1,87 @@
+.new-contents .title-module {
+  padding: 10px;
+  background: #6b7b84;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.new-contents .title-module i {
+  margin-right: 10px;
+}
+
+.new-contents .list-news .large, .new-contents .list-news .resized {
+  margin-bottom: 10px;
+}
+
+.new-contents .list-news .large .content-item, .new-contents .list-news .resized .content-item {
+  padding: 15px 0;
+}
+
+.new-contents .list-news .large .title {
+  font-size: 20px;
+  line-height: 24px;
+  height: 50px;
+  overflow: hidden;
+  color: #0072bb;
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+.new-contents .list-news .large .summary_title {
+  color: #666666;
+}
+
+.new-contents .list-news .boxder_top_home {
+  background: url(../images/boder.jpg) repeat-x center;
+  height: 20px;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+
+.new-contents .list-news .resized:hover {
+  color: #0072bb;
+}
+
+.new-contents .list-news .resized .title {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.new-contents .list-news .small {
+  display: block;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 20px;
+}
+
+.new-contents .list-news .small:hover {
+  color: #0072bb;
+}
+
+.new-contents .list-news .small img {
+  margin: 0 auto;
+  display: block;
+}
+
+.new-contents .list-news .small .title {
+  font-size: 20px;
+  line-height: 24px;
+  color: #0072bb;
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+.new-contents .list-news .small time {
+  font-size: 13px;
+  color: #999999;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.new-contents .list-news .small .summary {
+  color: #333333;
+  font-size: 13px;
+}
+/*# sourceMappingURL=cat.css.map */

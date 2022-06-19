@@ -1,0 +1,109 @@
+
+
+<ul>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(93)">Hậu Giang</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(92)">Cần Thơ</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(87)">Đồng Tháp</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(86)">Vĩnh Long</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(84)">Trà Vinh</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(79)">TP HCM</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(74)">Bình Dương</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(72)">Tây Ninh</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(70)">Bình Phước</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(60)">Bình Thuận</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(58)">Ninh Thuận</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(56)">Khánh Hòa</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(54)">Phú Yên</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(52)">Bình Định</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(46)">Thừa Thiên Huế</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(44)">Quảng Bình</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(42)">Hà Tĩnh</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(40)">Nghệ An</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(38)">Thanh Hóa</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(37)">Ninh Bình</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(36)">Nam Định</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(35)">Hà Nam</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(34)">Thái Bình</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(33)">Hưng Yên</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(31)">Hải Phòng</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(30)">Hải Dương</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(27)">Bắc Ninh</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(26)">Vĩnh Phúc</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(25)">Phú Thọ</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(22)">Quảng Ninh</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(2)">Hà Giang</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(19)">Thái Nguyên</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(17)">Hòa Bình</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(12)">Lai Châu</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(1)">Hà Nội</a>
+        </li>
+    </ul>

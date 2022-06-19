@@ -1,0 +1,201 @@
+ul#megamenu {
+    //position: absolute;
+    font-weight: normal;
+    text-transform: capitalize;
+    width: 103%;
+    border-radius: 5px 0 0 5px;
+    background-color: #ffffff;
+    //margin-top: 19px;
+    li {
+        border-bottom: #e5e5e5 solid 1px;
+
+        a {
+            display: block;
+            font-size: 14px;
+            color: #333333;
+            padding: 10px 0 10px 10px;
+        }
+    }
+
+    .title {
+        p {
+            display: block;
+            font-size: 18px;
+            color: #333333;
+            font-weight: bold;
+            padding: 10px 0 10px 10px;
+            background: url(../images/boderbot.png) left 15px bottom -1px no-repeat;
+        }
+    }
+
+    .xemthem {
+        a{
+            font-size: 14px;
+            color: #006cc6;
+            padding: 10px 0 10px 10px;
+            text-transform: none!important;
+        }
+    }
+}
+ul#lefmenu2{
+    margin-top: 10px;
+    font-weight: normal;
+    text-transform: capitalize;
+    width: 103%;
+    border-radius: 5px 0 0 5px;
+    background-color: #ffffff;
+    //margin-top: 19px;
+    li {
+        border-bottom: #e5e5e5 solid 1px;
+
+        a {
+            display: block;
+            font-size: 14px;
+            color: #333333;
+            padding: 10px 0 10px 10px;
+        }
+    }
+
+    .title {
+        p {
+            display: block;
+            font-size: 18px;
+            color: #333333;
+            font-weight: bold;
+            padding: 10px 0 10px 10px;
+            background: url(../images/boderbot.png) left 15px bottom -1px no-repeat;
+        }
+    }
+
+    .xemthem {
+        a{
+            font-size: 14px;
+            color: #006cc6;
+            padding: 10px 0 10px 10px;
+            text-transform: none!important;
+        }
+    }
+}
+
+//book1
+.book1{
+    display: block;
+    background-color: #ffffff;
+    width: 103%;
+    margin-top: 10px;
+    p{
+        font-size: 18px;
+        color: #333333;
+        font-weight: bold;
+        padding: 10px 0 10px 10px;
+    }
+    img{
+        padding: 0 10px 10px;
+    }
+}
+.book2{
+    display: block;
+    background-color: #ffffff;
+    width: 103%;
+    margin-top: 10px;
+    p{
+        font-size: 18px;
+        color: #333333;
+        font-weight: bold;
+        padding: 10px 0 10px 10px;
+    }
+    img{
+        padding: 0 10px 10px;
+    }
+}
+ul#lefmenu3{
+    margin-top: 10px;
+    font-weight: normal;
+    text-transform: capitalize;
+    width: 103%;
+    border-radius: 5px 0 0 5px;
+    background-color: #ffffff;
+    //margin-top: 19px;
+    li {
+        border-bottom: #e5e5e5 solid 1px;
+
+        a {
+            display: block;
+            font-size: 14px;
+            color: #333333;
+            padding: 10px 0 10px 10px;
+        }
+    }
+
+    .title {
+        p {
+            display: block;
+            font-size: 18px;
+            color: #333333;
+            font-weight: bold;
+            padding: 10px 0 10px 10px;
+            background: url(../images/boderbot.png) left 15px bottom -1px no-repeat;
+        }
+    }
+
+    .xemthem {
+        a{
+            font-size: 14px;
+            color: #006cc6;
+            padding: 10px 0 10px 10px;
+            text-transform: none!important;
+        }
+    }
+}
+.book3{
+    display: block;
+    background-color: #ffffff;
+    width: 103%;
+    margin-top: 10px;
+    p{
+        font-size: 18px;
+        color: #333333;
+        font-weight: bold;
+        padding: 10px 0 10px 10px;
+    }
+    img{
+        padding: 0 10px 10px;
+    }
+}
+.book4{
+    display: block;
+    background-color: #ffffff;
+    width: 103%;
+    margin-top: 10px;
+    p{
+        font-size: 18px;
+        color: #333333;
+        font-weight: bold;
+        padding: 10px 0 10px 10px;
+    }
+    img{
+        padding: 0 10px 10px;
+    }
+}
+.boxdex{
+    overflow: hidden;
+    display: block;
+    width: 103%;
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+.xemthem{
+    background-color: #ffffff;
+    width: 103%;
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+    a{
+        display: block;
+        font-size: 14px;
+        color: #4285ce;
+        padding: 10px 0 10px 10px;
+    }
+}

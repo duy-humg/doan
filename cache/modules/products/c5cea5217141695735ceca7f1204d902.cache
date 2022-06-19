@@ -1,0 +1,11 @@
+    <p class="infor-price_">
+                             <span class="price_old"></span>
+        <span class="infor-price">
+
+                            35đ                                </span>
+
+                                </p>
+    <input type="hidden" id="price_input" name='price' value="35"/>
+    <input type="hidden" id="check_conhang" name='check_conhang' value="1"/>
+    <input type="hidden" id="id_sub" name='id_sub'
+           value="5390"/>

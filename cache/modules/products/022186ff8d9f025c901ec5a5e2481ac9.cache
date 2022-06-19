@@ -1,0 +1,56 @@
+<pre class='xdebug-var-dump' dir='ltr'>
+<small>F:\code\home_farm\modules\products\controllers\product.php:183:</small>
+<b>array</b> <i>(size=4)</i>
+  0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1056'</font> <i>(length=4)</i>
+  1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1059'</font> <i>(length=4)</i>
+  2 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1061'</font> <i>(length=4)</i>
+  3 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1060'</font> <i>(length=4)</i>
+</pre><pre class='xdebug-var-dump' dir='ltr'>
+<small>F:\code\home_farm\modules\products\controllers\product.php:199:</small><small>string</small> <font color='#cc0000'>'89000'</font> <i>(length=5)</i>
+</pre><br><pre class='xdebug-var-dump' dir='ltr'>
+<small>F:\code\home_farm\modules\products\controllers\product.php:199:</small><small>string</small> <font color='#cc0000'>'90000'</font> <i>(length=5)</i>
+</pre><br><pre class='xdebug-var-dump' dir='ltr'>
+<small>F:\code\home_farm\modules\products\controllers\product.php:199:</small><small>string</small> <font color='#cc0000'>'10000'</font> <i>(length=5)</i>
+</pre><br><pre class='xdebug-var-dump' dir='ltr'>
+<small>F:\code\home_farm\modules\products\controllers\product.php:199:</small><small>string</small> <font color='#cc0000'>'2500'</font> <i>(length=4)</i>
+</pre><br><!--<div class="wrapper-tb-pop">-->
+<a href="javascript:void(0)" id="close-cart"><img src="http://homefarm.local:800/images/Path 523.svg"
+                                                  alt="close cart"/></a>
+<div class="title_popup clearfix">
+<!--    <p class="quan">--><!--<span> sản phẩm</span></p>-->
+<!--    <p class="price_tt">--><!--</p>-->
+    <p class="add_success"><i class="fa fa-check-circle" aria-hidden="true" style="font-size: 16px;color: #6ac259; margin-right: 5px"></i><span>Thêm vào giỏ hàng thành công</span></p>
+</div>
+<div class="sbmm">
+    <a href="http://homefarm.local:800/gio-hang.html" class="btn order_now">Xem và chỉnh sửa giỏ hàng</a>
+</div>
+<!--<div id="popup-cart">-->
+<!--    --><!--                    <div class="--><!-- prd_detail">-->
+<!--                        <div class="img_product">-->
+<!--                            <a class="pull-left" href="--><!--">-->
+<!--                                <img class="img-responsive" src="--><!--"-->
+<!--                                     alt="--><!--">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="name_prd">-->
+<!--                            <a href="--><!--">--><!--</a>-->
+<!--                            --><!--                                <p class="nature">Màu sắc: <span>--><!--</span></p>-->
+<!--                            --><!--                            --><!--                                <p class="nature">Phân loại hàng:-->
+<!--                                    <span>--><!--</span></p>-->
+<!--                            --><!--                            <p class="price_prd">--><!--</p>-->
+<!--                        </div>-->
+<!--                        <div class="del_prd">-->
+<!--                            <a data-id="--><!--"-->
+<!--                               data-tr="--><!--"-->
+<!--                               class="del-pro-link"-->
+<!--                               href="#"-->
+<!--                               title="">-->
+<!--                                <img src="--><!--modules/products/assets/images/del_prd.png"-->
+<!--                                     alt="Bỏ sản phẩm">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    --><!--</div>-->
+<!--<a href="--><!--" class="btn order_now now_">Xem và-->
+<!--    chỉnh sửa giỏ hàng</a>-->
+<!--</div>-->

@@ -1,0 +1,60 @@
+<!--<div class="wrapper-tb-pop">-->
+<a href="javascript:void(0)" id="close-cart"></a>
+<div class="title_popup clearfix">
+    <p class="quan">5<span> sản phẩm</span></p>
+    <p class="price_tt">984.600đ</p>
+</div>
+<div class="sbmm">
+    <a href="https://tantien.phongcachso.com/gio-hang.html" class="btn order_now">Tiến hành
+        thanh toán ngay</a>
+</div>
+<div id="popup-cart">
+                        <div class="tr-pop-1 prd_detail">
+                        <div class="img_product">
+                            <a class="pull-left" href="https://tantien.phongcachso.com/day-deo-the-ten-10mm-dp119992.html">
+                                <img class="img-responsive" src="https://tantien.phongcachso.com/images/products/2021/01/22/resized/day-bang-ten-lua-moc-xoay_1611298045.jpg"
+                                     alt="Dây đeo thẻ tên 10mm">
+                            </a>
+                        </div>
+                        <div class="name_prd">
+                            <a href="https://tantien.phongcachso.com/day-deo-the-ten-10mm-dp119992.html">Dây đeo thẻ tên 10mm</a>
+                                                            <p class="nature">Màu sắc: <span>Nâu</span></p>
+                                                                                    <p class="price_prd">2.400đ</p>
+                        </div>
+                        <div class="del_prd">
+                            <a data-id="6755"
+                               data-tr="tr-pop-1"
+                               class="del-pro-link"
+                               href="#"
+                               title="">
+                                <img src="https://tantien.phongcachso.com/modules/products/assets/images/del_prd.png"
+                                     alt="Bỏ sản phẩm">
+                            </a>
+                        </div>
+                    </div>
+                                        <div class="tr-pop-1 prd_detail">
+                        <div class="img_product">
+                            <a class="pull-left" href="https://tantien.phongcachso.com/thung-10-xap-decal-tomy-a4---nhan-co-lop-keo-tu-dinh-tomy-125-126-127-128-129-130-131-132-133-134-135-136-137-138-dp119979.html">
+                                <img class="img-responsive" src="https://tantien.phongcachso.com/images/products/2020/06/18/resized/tomy1_1592448720.jpg"
+                                     alt="Thùng 10 xấp decal Tomy A4 - nhãn có lớp keo tự dính Tomy 125 126 127 128 129 130 131 132 133 134 135 136 137 138">
+                            </a>
+                        </div>
+                        <div class="name_prd">
+                            <a href="https://tantien.phongcachso.com/thung-10-xap-decal-tomy-a4---nhan-co-lop-keo-tu-dinh-tomy-125-126-127-128-129-130-131-132-133-134-135-136-137-138-dp119979.html">Thùng 10 xấp decal Tomy A4 - nhãn có lớp keo tự dính Tomy 125 126 127 128 129 130 131 132 133 134 135 136 137 138</a>
+                                                                                    <p class="price_prd">975.000đ</p>
+                        </div>
+                        <div class="del_prd">
+                            <a data-id="119979"
+                               data-tr="tr-pop-1"
+                               class="del-pro-link"
+                               href="#"
+                               title="">
+                                <img src="https://tantien.phongcachso.com/modules/products/assets/images/del_prd.png"
+                                     alt="Bỏ sản phẩm">
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+<a href="https://tantien.phongcachso.com/gio-hang.html" class="btn order_now now_">Xem và
+    chỉnh sửa giỏ hàng</a>
+<!--</div>-->

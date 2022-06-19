@@ -1,0 +1,58 @@
+.list_menu_new {
+  background: #fff;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.list_menu_new .title-left-menu {
+  font-size: 18px;
+  text-transform: uppercase;
+  background: url(../images/boderbot.png) no-repeat bottom -1px left 14px;
+  padding: 10px 0px 15px 10px;
+  border-bottom: 1px solid #e5e5e5;
+  font-weight: bold;
+  color: #333333;
+}
+
+.list_menu_new .tab-content {
+  margin-top: 10px;
+}
+
+.list_menu_new .tab-content li a {
+  font-size: 14px;
+  padding: 10px 20px;
+  color: #555555;
+  background: url(../images/icon_1.png) no-repeat top 15px left 10px;
+  display: block;
+}
+
+.list_menu_new .tab-content li:hover a, .list_menu_new .tab-content li.active a {
+  color: #f7941e;
+  background: url(../images/icon_tt.png) no-repeat top 15px left 10px;
+}
+
+.list_menu_new .tab-pane-list {
+  padding: 0 15px;
+}
+
+.list_menu_new .tab-pane-list ul li {
+  padding: 15px 0;
+  border-bottom: 1px dotted #e5e5e5;
+}
+
+.list_menu_new .tab-pane-list ul li img {
+  width: 40%;
+}
+
+.list_menu_new .tab-pane-list ul li span {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  color: #555555;
+}
+
+.list_menu_new .tab-pane-list ul li span:hover {
+  color: #f7941e;
+}
+/*# sourceMappingURL=default.css.map */

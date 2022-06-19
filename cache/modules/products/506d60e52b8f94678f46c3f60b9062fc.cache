@@ -1,0 +1,10 @@
+    <p class="infor-price_">
+                             <span class="price_old">400.000đ</span>
+        <span class="infor-price">
+
+                            40.000đ                                </span>
+
+                    <span class="p-giamgia">-90% GIẢM</span>
+            </p>
+    <input type="hidden" id="price_input" name='price' value="40000"/>
+    <input type="hidden" id="check_conhang" name='check_conhang' value="1"/>

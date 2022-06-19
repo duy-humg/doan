@@ -1,0 +1,30 @@
+
+    <div class="image-check item_sp  mg-top   col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <a class="img" href="http://homefarm.local:800/rau-dp1061.html">
+            <img src="http://homefarm.local:800/images/products/2021/12/11/tiny/67_1639198223.png" alt="Rau">
+        </a>
+        <a class="name_sp" href="http://homefarm.local:800/rau-dp1061.html">Rau</a>
+        <div class="money_sp">
+            <p class="text-price" >10.000đ</p>
+                            <p class="text-price-old">50.000đ</p>
+                <p class="giamgia">-80%</p>
+            
+        </div>
+        <a class="a-more" href="http://homefarm.local:800/rau-dp1061.html">CHỌN MUA</a>
+    </div>
+
+
+    <div class="image-check item_sp  mg-top   col-lg-3 col-md-3 col-sm-6 col-xs-6">
+        <a class="img" href="http://homefarm.local:800/ca-hoi-tuoi-nguyen-con-salmon-fresh-dp1060.html">
+            <img src="http://homefarm.local:800/images/products/2021/12/11/tiny/67_1639198170.png" alt="Cá hồi tươi nguyên con (Salmon Fresh)">
+        </a>
+        <a class="name_sp" href="http://homefarm.local:800/ca-hoi-tuoi-nguyen-con-salmon-fresh-dp1060.html">Cá hồi tươi nguyên con (Salmon Fresh)</a>
+        <div class="money_sp">
+            <p class="text-price" >2.500đ</p>
+                            <p class="text-price-old">50.000đ</p>
+                <p class="giamgia">-95%</p>
+            
+        </div>
+        <a class="a-more" href="http://homefarm.local:800/ca-hoi-tuoi-nguyen-con-salmon-fresh-dp1060.html">CHỌN MUA</a>
+    </div>
+

@@ -1,0 +1,209 @@
+ul#megamenu {
+  font-weight: normal;
+  text-transform: capitalize;
+  width: 103%;
+  border-radius: 5px 0 0 5px;
+  background-color: #ffffff;
+}
+
+ul#megamenu li {
+  border-bottom: #e5e5e5 solid 1px;
+}
+
+ul#megamenu li a {
+  display: block;
+  font-size: 14px;
+  color: #333333;
+  padding: 10px 0 10px 10px;
+}
+
+ul#megamenu .title p {
+  display: block;
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+  background: url(../images/boderbot.png) left 15px bottom -1px no-repeat;
+}
+
+ul#megamenu .xemthem a {
+  font-size: 14px;
+  color: #006cc6;
+  padding: 10px 0 10px 10px;
+  text-transform: none !important;
+}
+
+ul#lefmenu2 {
+  margin-top: 10px;
+  font-weight: normal;
+  text-transform: capitalize;
+  width: 103%;
+  border-radius: 5px 0 0 5px;
+  background-color: #ffffff;
+}
+
+ul#lefmenu2 li {
+  border-bottom: #e5e5e5 solid 1px;
+}
+
+ul#lefmenu2 li a {
+  display: block;
+  font-size: 14px;
+  color: #333333;
+  padding: 10px 0 10px 10px;
+}
+
+ul#lefmenu2 .title p {
+  display: block;
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+  background: url(../images/boderbot.png) left 15px bottom -1px no-repeat;
+}
+
+ul#lefmenu2 .xemthem a {
+  font-size: 14px;
+  color: #006cc6;
+  padding: 10px 0 10px 10px;
+  text-transform: none !important;
+}
+
+.book1 {
+  display: block;
+  background-color: #ffffff;
+  width: 103%;
+  margin-top: 10px;
+}
+
+.book1 p {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+}
+
+.book1 img {
+  padding: 0 10px 10px;
+}
+
+.book2 {
+  display: block;
+  background-color: #ffffff;
+  width: 103%;
+  margin-top: 10px;
+}
+
+.book2 p {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+}
+
+.book2 img {
+  padding: 0 10px 10px;
+}
+
+ul#lefmenu3 {
+  margin-top: 10px;
+  font-weight: normal;
+  text-transform: capitalize;
+  width: 103%;
+  border-radius: 5px 0 0 5px;
+  background-color: #ffffff;
+}
+
+ul#lefmenu3 li {
+  border-bottom: #e5e5e5 solid 1px;
+}
+
+ul#lefmenu3 li a {
+  display: block;
+  font-size: 14px;
+  color: #333333;
+  padding: 10px 0 10px 10px;
+}
+
+ul#lefmenu3 .title p {
+  display: block;
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+  background: url(../images/boderbot.png) left 15px bottom -1px no-repeat;
+}
+
+ul#lefmenu3 .xemthem a {
+  font-size: 14px;
+  color: #006cc6;
+  padding: 10px 0 10px 10px;
+  text-transform: none !important;
+}
+
+.book3 {
+  display: block;
+  background-color: #ffffff;
+  width: 103%;
+  margin-top: 10px;
+}
+
+.book3 p {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+}
+
+.book3 img {
+  padding: 0 10px 10px;
+}
+
+.book4 {
+  display: block;
+  background-color: #ffffff;
+  width: 103%;
+  margin-top: 10px;
+}
+
+.book4 p {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+}
+
+.book4 img {
+  padding: 0 10px 10px;
+}
+
+.boxdex {
+  overflow: hidden;
+  display: block;
+  width: 103%;
+}
+
+@media (max-width: 767px) {
+  .boxdex {
+    width: 100%;
+  }
+}
+
+.xemthem {
+  background-color: #ffffff;
+  width: 103%;
+}
+
+@media (max-width: 767px) {
+  .xemthem {
+    width: 100%;
+  }
+}
+
+.xemthem a {
+  display: block;
+  font-size: 14px;
+  color: #4285ce;
+  padding: 10px 0 10px 10px;
+}
+/*# sourceMappingURL=leftmenu1.css.map */

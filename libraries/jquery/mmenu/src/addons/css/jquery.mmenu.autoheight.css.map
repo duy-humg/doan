@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;EAEE;AAKF,AAEC,QAFO,AAEN,cAAc,CACf;EACC,UAAU,EAAE,GAA4B;CAMxC;;AAVF,AAME,QANM,AAEN,cAAc,AAIb,cAAc,CACf;EACC,UAAU,EAAE,IAAI;CAChB;;AATH,AAYC,QAZO,AAYN,iBAAiB,GAAG,UAAU,GAAG,SAAS,CAC3C;EACC,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,eAAe;CACvB",
+    "sources": [
+        "jquery.mmenu.autoheight.scss",
+        "../../core/css/_inc/_variables.scss",
+        "../../core/css/_inc/_mixins.scss",
+        "../../core/css/_inc/_sizing.scss",
+        "../../core/css/_inc/_colors.scss"
+    ],
+    "names": [],
+    "file": "jquery.mmenu.autoheight.css"
+}

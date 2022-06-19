@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /dsearch/
+Disallow: /procate/
+Disallow: /search/
+Disallow: /admin/
+Disallow: /store/
+Disallow: /vi-VN/

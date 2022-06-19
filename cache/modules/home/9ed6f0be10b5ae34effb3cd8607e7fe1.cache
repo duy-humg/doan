@@ -1,0 +1,16 @@
+
+
+<ul>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(34)">Thái Bình</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(31)">Hải Phòng</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(30)">Hải Dương</a>
+        </li>
+            <li>
+            <a href="javascript:void(0)" onclick="huyen(19)">Thái Nguyên</a>
+        </li>
+    </ul>

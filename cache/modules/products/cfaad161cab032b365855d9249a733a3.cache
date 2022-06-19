@@ -1,0 +1,9 @@
+    <p class="infor-price_">
+        <span class="infor-price">
+           Sản phẩm tạm thời hết hàng
+        </span>
+    </p>
+    <input type="hidden" id="price_input" name='price' value="0"/>
+    <input type="hidden" id="check_conhang" name='check_conhang' value="0"/>
+    <input type="hidden" id="id_sub" name='id_sub'
+           value=""/>

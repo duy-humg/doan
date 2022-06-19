@@ -1,0 +1,30 @@
+.created_email {
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.created_email .contact-us-ft {
+  font-size: 13px;
+  margin: 10px 0;
+  color: #888888;
+  font-weight: bold;
+}
+
+.created_email .list-service-ft {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .created_email .list-service-ft {
+    width: 52%;
+  }
+}
+/*# sourceMappingURL=newletter.css.map */

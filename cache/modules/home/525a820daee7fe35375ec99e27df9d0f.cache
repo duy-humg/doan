@@ -1,0 +1,63 @@
+
+
+<p class="text-chon">
+    <a class="a-ql"  onclick="ql_xa()" href="javascript:void(0)"><i class="fal fa-chevron-left"></i></a>
+    Chọn Xã/Phường Tại Long Mỹ</p>
+<input type="hidden" id="id_city_menu" value="936">
+<div class="nd_vitri">
+    <div class="input-search-vitri">
+        <input type="text" id="huyen_search" value="" placeholder="Tìm nhanh xã/phường">
+    </div>
+    <div class="list_vitri">
+        <div class="box box-list-address">
+            <ul>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31495)">Xà Phiên</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31493)">Lương Nghĩa</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31492)">Lương Tâm</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31490)">Vĩnh Viễn A</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31489)">Vĩnh Viễn</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31486)">Vĩnh Thuận Đông</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31484)">Thuận Hoà</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31483)">Thuận Hưng</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31481)">Tân Phú</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31480)">Long Phú</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31478)">Long Trị A</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31477)">Long Trị</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31474)">Long Bình</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31472)">Trà Lồng</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(31471)">Long Mỹ</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+<script>

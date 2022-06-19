@@ -1,0 +1,106 @@
+
+
+<p class="text-chon">
+    <a class="a-ql"  onclick="ql_xa()" href="javascript:void(0)"><i class="fal fa-chevron-left"></i></a>
+    Chọn Xã/Phường Tại Giồng Trôm</p>
+<input type="hidden" id="id_city_menu" value="834">
+<div class="nd_vitri">
+    <div class="input-search-vitri">
+        <input type="text" id="huyen_search" value="" placeholder="Tìm nhanh xã/phường">
+    </div>
+    <div class="list_vitri">
+        <div class="box box-list-address">
+            <ul>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29047)">Hưng Lễ</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29044)">Hưng Nhượng</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29041)">Thạnh Phú Đông</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29038)">Tân Lợi Thạnh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29035)">Tân Thanh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29032)">Bình Thành</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29029)">Tân Hào</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29026)">Long Mỹ</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29023)">Hưng Phong</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29020)">Phước Long</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29017)">Bình Hoà</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29014)">Sơn Phú</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29011)">Thuận Điền</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29008)">Châu Bình</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29005)">Lương Phú</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(29002)">Lương Quới</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(28999)">Lương Hòa</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(28996)">Châu Hòa</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(28993)">Mỹ Thạnh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(28990)">Phong Mỹ</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(28987)">Phong Nẫm</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(28984)">Giồng Trôm</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    function xa(id) {
+        // alert(1);
+        $.ajax({
+            url: "index.php?module=home&view=home&task=xa_click&raw=1",
+            type: 'GET',
+            data: {id: id},
+            dataType: 'html',
+            success: function (data) {
+
+                // $(".chon-vitri").html(data);
+                // $(".item-service"+$i).remove();
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert('Có lỗi trong quá trình đưa lên máy chủ. Xin bạn vui lòng kiểm tra lỗi kết nối.');
+            }
+        });
+        console.log(id);
+        // alert(1);
+        $(".address_user_menu .a-vitri-menu").click();
+
+    }
+</script>

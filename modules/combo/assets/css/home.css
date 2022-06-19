@@ -1,0 +1,124 @@
+.slide_home {
+  margin-bottom: 20px;
+}
+
+.slide_home .carousel-indicators {
+  margin-left: 0px !important;
+  right: 0px !important;
+  text-align: center;
+  width: 100% !important;
+}
+
+.slide_home .carousel-indicators li {
+  background: #00000061;
+  border: unset;
+}
+
+.slide_home .carousel-indicators .active {
+  background: #F89A43;
+  border: 1px solid #fff;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.combo {
+  background: #fff;
+  padding: 20px;
+}
+
+.combo .list_combo .item_sp {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .combo .list_combo .item_sp {
+    width: 380px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 10px;
+  }
+}
+
+.combo .list_combo .item_sp .img {
+  margin-bottom: 12px;
+  display: block;
+}
+
+.combo .list_combo .item_sp .img img {
+  border-radius: 3px;
+}
+
+.combo .list_combo .item_sp .name_sp {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  font-family: Poppins-Medium;
+  text-align: center;
+  text-transform: capitalize;
+  display: block;
+  color: #333333;
+}
+
+.combo .list_combo .mg3 {
+  margin-right: 0px;
+}
+
+.combo .div-more {
+  margin-bottom: 14px;
+  margin-top: 20px;
+}
+
+.combo .div-more .c-view-more {
+  text-align: center;
+}
+
+.combo .div-more .c-view-more a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  color: #999999;
+  background: #F3F7F9;
+  border-radius: 3px;
+  padding: 14px 66px;
+}
+
+@media (max-width: 767px) {
+  .combo {
+    padding: 20px 10px;
+  }
+  .combo .list_combo .item_sp .img img {
+    max-width: 100%;
+  }
+  .menu_orther {
+    padding-bottom: 0px;
+  }
+  body header .header-logo {
+    padding: 30px 0px !important;
+  }
+  #main {
+    padding: 0px 0 75px 0;
+  }
+  .table-responsive {
+    border: unset;
+  }
+}
+
+@media (max-width: 550px) {
+  .combo .list_combo .item_sp {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+  .main_ct .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+/*# sourceMappingURL=home.css.map */

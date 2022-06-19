@@ -1,0 +1,75 @@
+
+
+<p class="text-chon">
+    <a class="a-ql" href="javascript:void(0)"><i class="fal fa-chevron-left"></i></a>
+    Chọn Quận huyện Tại Cà Mau</p>
+<input type="hidden" id="id_city_menu" value="96">
+<div class="nd_vitri">
+    <div class="input-search-vitri">
+        <input type="text" id="huyen_search" value="" placeholder="Tìm nhanh tỉnh thành, quận huyện...">
+    </div>
+    <div class="list_vitri">
+        <div class="box box-list-address">
+            <ul>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(973)">Ngọc Hiển</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(972)">Phú Tân</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(971)">Năm Căn</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(970)">Đầm Dơi</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(969)">Cái Nước</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(968)">Trần Văn Thời</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(967)">Thới Bình</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(966)">U Minh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(964)">Cà Mau</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+
+        $("#huyen_search").keypress(function(){
+            huyen_search =  $("#huyen_search").val();
+            id_city_menu =  $("#id_city_menu").val();
+
+
+            let str = huyen_search;
+
+            if(str.length>=1){
+                $.ajax({
+                    url: "index.php?module=home&view=home&task=search_huyen&raw=1",
+                    type: 'GET',
+                    data: {huyen_search: huyen_search,id_city_menu:id_city_menu},
+                    dataType: 'html',
+                    success: function (data) {
+
+                        $(".box-list-address").html(data);
+                        // $(".item-service"+$i).remove();
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        alert('Có lỗi trong quá trình đưa lên máy chủ. Xin bạn vui lòng kiểm tra lỗi kết nối.');
+                    }
+                });
+            }
+        });
+    });
+
+
+</script>

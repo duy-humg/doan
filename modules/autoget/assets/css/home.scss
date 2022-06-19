@@ -1,0 +1,103 @@
+.new-contents {
+    .title-module {
+        padding: 10px;
+        background: #6b7b84;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+
+        i {
+            margin-right: 10px;
+        }
+    }
+
+
+    .list-news {
+
+        .large, .resized {
+            margin-bottom: 10px;
+
+            .content-item {
+                    padding: 15px 0;
+            }
+
+            .title {
+                // display: -webkit-box;
+                // -webkit-box-orient: vertical;
+                // text-overflow: ellipsis;
+                // -webkit-line-clamp: 2;
+                // overflow: hidden;
+            }
+        }
+
+        .large {
+            .title {
+                font-size: 20px;
+			    line-height: 24px;
+			    height: 50px;
+			    overflow: hidden;
+			    color: #0072bb;
+			    margin-bottom: 8px;
+			    font-weight: normal;
+            }
+            .summary_title{
+            	color: #666666;
+            }
+        }
+        .boxder_top_home{
+    	    background: url(../images/boder.jpg) repeat-x center;
+		    height: 20px;
+		    margin: 0 10px;
+		    margin-bottom: 20px;
+        }
+
+        .resized {
+        	&:hover{
+        		color: #0072bb;
+        	}
+            .title {
+                font-size: 14px;
+            	font-weight: normal;
+            }
+        }
+
+        .small {
+    	    display: block;
+		    padding-bottom: 15px;
+		    border-bottom: 1px dotted #ccc;
+		    margin-bottom: 20px;
+            &:hover{
+            	color: #0072bb;
+            }
+
+            img {
+            	margin: 0 auto;
+            	display: block;
+            }
+
+            .content-item {
+            }
+
+            .title {
+                font-size: 20px;
+                line-height: 24px;
+                margin-bottom: 8px;
+                color: #0072bb;
+                font-weight: normal;
+            }
+
+            time {
+                font-size: 13px;
+			    color: #999999;
+			    margin-bottom: 10px;
+			    display: block;
+            }
+
+            .summary {
+                color: #333333;
+                font-size: 13px;
+            }
+        }
+    }
+}

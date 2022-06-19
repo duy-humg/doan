@@ -1,0 +1,36 @@
+.discount_content{
+	margin: 0;
+}
+.discount_content .discount_title {
+    color: #333333;
+    display: inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.discount_content #discount_form {
+	display: inline-block;
+    margin-left: 12px;
+    max-width: 200px;
+    position: relative;
+    width: 100%;
+}
+.discount_content .txt-input {
+	background: none repeat scroll 0 0 #f9f9f9;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    color: #7d7d7d;
+    font-size: 11px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.discount_content .button-sub.button {
+	background: url("../images/icon_button.png") no-repeat scroll center center #dd0000;
+    border: 1px solid #dd0000;
+    border-radius: 0 4px 4px 0;
+    padding: 3px 12px;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    top: 0;
+}

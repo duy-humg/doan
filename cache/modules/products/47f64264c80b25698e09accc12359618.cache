@@ -1,0 +1,7 @@
+
+  SELECT *
+                        FROM fs_products 
+                        WHERE published = 1   AND ( `name` like '%thut%' )
+                      
+                        LIMIT 20
+                        {"query":"thut","suggestions":[{"value":"http:\/\/geni.local\/100-thuthuat-cao-cap-voi-pc-dp66075.html","data":{"text":"100 Th\u1ee7Thu\u1eadt Cao C\u1ea5p V\u1edbi PC","brand":"S\u00e1ch ngo\u1ea1i ng\u1eef &amp; T\u1eeb \u0111i\u1ec3n","price":"40.000\u0111","image":"http:\/\/geni.local\/images\/products\/import\/2020\/small\/vnb_p16115.jpg"}}]}

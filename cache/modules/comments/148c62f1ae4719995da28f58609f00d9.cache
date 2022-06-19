@@ -1,0 +1,45 @@
+
+
+<script>
+	function load_ajax_pagination($value){
+		$.get($value,{}, function(html){
+			$('#_info_comment').html(html);
+		    $('html, body').animate({scrollTop:$('#_info_comment').position().top}, 'slow');
+		});
+	}
+</script>
+
+
+<script>
+    display_hidden_comment_form();
+
+    function display_hidden_comment_form() {
+        $('.button_reply').click(function () {
+            $(this).next().removeClass('hide');
+            $(this).addClass('hide');
+        });
+        $('.button_reply_close').click(function () {
+            $(this).parent().parent().parent().parent().addClass('hide');
+            $(this).parent().parent().parent().parent().parent().children('a').removeClass('hide');
+        });
+    }
+
+    $(document).ready(function () {
+        if ($('.star-detail').attr('data-rating')) {
+
+            $('.star-detail').raty({
+                readOnly: true,
+
+                score: function () {
+                    return $(this).attr('data-rating');
+                },
+                starOff: 'images/icon_sao3.png',
+                starOn: 'images/icon_sao1.png',
+                targetFormat: '{score}',
+
+            });
+        }
+
+    })
+
+</script>

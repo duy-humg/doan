@@ -1,0 +1,41 @@
+<!--<div class="wrapper-tb-pop">-->
+<a href="javascript:void(0)" id="close-cart"><img src="http://vinashoe.vn/images/Path 523.svg"
+                                                  alt="close cart"/></a>
+<div class="title_popup clearfix">
+<!--    <p class="quan">--><!--<span> sản phẩm</span></p>-->
+<!--    <p class="price_tt">--><!--</p>-->
+    <p class="add_success"><i class="fa fa-check-circle" aria-hidden="true" style="font-size: 16px;color: #6ac259; margin-right: 5px"></i><span>Thêm vào giỏ hàng thành công</span></p>
+</div>
+<div class="sbmm">
+    <a href="http://vinashoe.vn/gio-hang.html" class="btn order_now">Xem và chỉnh sửa giỏ hàng</a>
+</div>
+<!--<div id="popup-cart">-->
+<!--    --><!--                    <div class="--><!-- prd_detail">-->
+<!--                        <div class="img_product">-->
+<!--                            <a class="pull-left" href="--><!--">-->
+<!--                                <img class="img-responsive" src="--><!--"-->
+<!--                                     alt="--><!--">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class="name_prd">-->
+<!--                            <a href="--><!--">--><!--</a>-->
+<!--                            --><!--                                <p class="nature">Màu sắc: <span>--><!--</span></p>-->
+<!--                            --><!--                            --><!--                                <p class="nature">Phân loại hàng:-->
+<!--                                    <span>--><!--</span></p>-->
+<!--                            --><!--                            <p class="price_prd">--><!--</p>-->
+<!--                        </div>-->
+<!--                        <div class="del_prd">-->
+<!--                            <a data-id="--><!--"-->
+<!--                               data-tr="--><!--"-->
+<!--                               class="del-pro-link"-->
+<!--                               href="#"-->
+<!--                               title="">-->
+<!--                                <img src="--><!--modules/products/assets/images/del_prd.png"-->
+<!--                                     alt="Bỏ sản phẩm">-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    --><!--</div>-->
+<!--<a href="--><!--" class="btn order_now now_">Xem và-->
+<!--    chỉnh sửa giỏ hàng</a>-->
+<!--</div>-->

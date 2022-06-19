@@ -1,0 +1,542 @@
+.menu-list-cart .container .border-step {
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu-list-cart .container .background-check span.border-step {
+  background: #4caf50;
+  border: 2px solid #4caf50;
+}
+
+.menu-list-cart .container .background-check span.border-step .fa-check {
+  color: #fff;
+  line-height: 24px;
+}
+
+.menu-list-cart .container .background-cart-1 {
+  background: #ce0021;
+  color: #fff;
+}
+
+.menu-list-cart .container .background-cart-1 .border-step {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+}
+
+.menu-list-cart .container .background-cart-2 {
+  background: #dedfe2;
+  color: #333;
+}
+
+.menu-list-cart .container .background-cart-2:before {
+  content: '';
+  width: 0;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  height: 0;
+  border-top: 24px solid #dedfe2;
+  border-bottom: 24px solid #dedfe2;
+  border-left: 12px solid #f2f3f5;
+}
+
+.menu-list-cart .container .background-cart-2:after {
+  content: '';
+  width: 0;
+  position: absolute;
+  right: -12px;
+  top: 0;
+  height: 0;
+  z-index: 1;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 12px solid #dedfe2;
+}
+
+.left-cart-pay .title-cart-right {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.left-cart-pay .left-box-list {
+  border-radius: 5px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .left-cart-pay .left-box-list {
+    margin-bottom: 15px;
+  }
+}
+
+.left-cart-pay .left-box-list .title-input {
+  line-height: 40px;
+  margin-left: 25%;
+}
+
+.left-cart-pay .left-box-list .check-show-hide label {
+  font-weight: normal;
+}
+
+.left-cart-pay .left-box-list .check-show-hide input[type="checkbox"] {
+  margin: 0;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.left-cart-pay .left-box-list .code_down_price {
+  margin-top: 20px;
+  display: none;
+}
+
+.left-cart-pay .left-box-list input[type="text"] {
+  width: 100%;
+  border: 1px solid #dddddd;
+  height: 40px;
+  padding: 0 14px;
+  margin-bottom: 13px;
+  border-radius: 5px;
+}
+
+.left-cart-pay .left-box-list select {
+  width: 100%;
+  border: 1px solid #dddddd;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 13px;
+}
+
+.left-cart-pay .left-box-list textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 14px;
+  border: 1px dotted #dddddd;
+}
+
+.left-cart-pay .left-box-list input[type="radio"] {
+  display: none;
+  vertical-align: middle;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.left-cart-pay .left-box-list input[type="radio"] + label:before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  border-radius: 50%;
+  border: 2px solid #dddddd;
+  background-color: #ffffff;
+}
+
+.left-cart-pay .left-box-list input[type="radio"]:checked + label:before {
+  background: url("../images/vanchuyen1.png") no-repeat;
+  border: none;
+}
+
+.left-cart-pay .left-box-list .add_code_price {
+  font-size: 16px;
+  color: #fff;
+  background: #ce0021;
+  width: 100%;
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.left-cart-pay .left-box-list .list-thanh-toan ul li {
+  line-height: 18px;
+  border-bottom: 1px dotted #ddd;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.left-cart-pay .left-box-list .list-thanh-toan ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.left-cart-pay .left-box-list .list-thanh-toan ul li label {
+  font-size: 14px;
+  padding-left: 95px;
+  position: relative;
+}
+
+.left-cart-pay .left-box-list .list-thanh-toan ul li label span {
+  font-weight: normal;
+  display: block;
+  color: #999999;
+  font-size: 13px;
+}
+
+.left-cart-pay .left-box-list .list-thanh-toan ul li .tien-mat {
+  background: url(../images/thanh-toan_01.png) no-repeat 40px center;
+}
+
+.left-cart-pay .left-box-list .list-thanh-toan ul li .chuyen-khoan {
+  background: url(../images/thanh-toan_03.png) no-repeat 40px center;
+}
+
+.left-cart-pay .left-box-list .list-thanh-toan ul li .cong-thanh-toan {
+  background: url(../images/thanh-toan_05.png) no-repeat 40px center;
+}
+
+.left-cart-pay .left-box-list .list-thanh-toan ul li .info-banks-send {
+  display: none;
+  margin: 20px 20px 0;
+}
+
+.left-cart-pay .conditional-terms {
+  background: #f2f3f5;
+  border-radius: 5px;
+  padding: 25px 20px;
+}
+
+.left-cart-pay .conditional-terms p {
+  line-height: 40px;
+}
+
+.left-cart-pay .conditional-terms p input[type="checkbox"] {
+  margin: 0;
+}
+
+.left-cart-pay .conditional-terms p label {
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.left-cart-pay .conditional-terms p a {
+  color: #007ff0;
+}
+
+.left-cart-pay .conditional-terms input[type="submit"] {
+  font-size: 16px;
+  color: #fff;
+  background: #f7941e;
+  width: 100%;
+  height: 40px;
+}
+
+.left-cart-pay .condi-mb {
+  display: none;
+}
+
+.right-cart .title-cart-right {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.right-cart .title-cart-right .soluong {
+  font-size: 14px;
+  color: #333333;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.right-cart .list-products-cart {
+  border-top: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.right-cart .list-products-cart .list-products {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.right-cart .list-products-cart .list-products ul li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #ddd;
+}
+
+.right-cart .list-products-cart .list-products ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.right-cart .list-products-cart .list-products ul li p {
+  text-align: right;
+}
+
+.right-cart .list-products-cart .list-products ul li a {
+  display: block;
+}
+
+.right-cart .list-products-cart .list-products ul li a img {
+  float: left;
+  margin-right: 5px;
+}
+
+.right-cart .list-products-cart .price-total {
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.right-cart .list-products-cart .price-total ul li {
+  margin-bottom: 12px;
+}
+
+.right-cart .list-products-cart .price-total p {
+  border-top: 1px dotted #ddd;
+  padding-top: 15px;
+}
+
+.right-cart .list-products-cart .price-total span {
+  float: right;
+}
+
+.right-cart .list-products-cart .price-total .red-price {
+  color: #333333;
+  font-size: 16px;
+}
+
+.right-cart .list-products-cart .price-total .fred {
+  color: #ce0021;
+  font-weight: bold;
+}
+
+.right-cart .list-products-cart .price-total .blue-price {
+  font-size: 14px;
+  color: #007ff0;
+}
+
+.right-cart .left-box-list {
+  background-color: #ffffff;
+  margin: 15px 0;
+  padding: 20px;
+}
+
+.right-cart .left-box-list .check-show-hide label {
+  font-size: 14px;
+  color: #333333;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.right-cart .left-box-list .code_down_price input {
+  width: 100%;
+  border: 1px solid #dddddd;
+  height: 40px;
+  padding: 0 14px;
+}
+
+.right-cart .left-box-list .code_down_price .add_code_price {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding-top: 8px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #252525;
+}
+
+@media (max-width: 767px) {
+  .right-cart .left-box-list .code_down_price .add_code_price {
+    text-align: center;
+  }
+}
+
+.right-cart .conditional-terms {
+  background: #f2f3f5;
+  border-radius: 5px;
+  padding: 25px 0px;
+}
+
+.right-cart .conditional-terms p {
+  line-height: 40px;
+}
+
+.right-cart .conditional-terms p input[type="checkbox"] {
+  margin: 0;
+}
+
+.right-cart .conditional-terms p label {
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.right-cart .conditional-terms p a {
+  color: #007ff0;
+}
+
+.right-cart .conditional-terms input[type="submit"] {
+  font-size: 16px;
+  color: #fff;
+  background: #f7941e;
+  width: 100%;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.right-cart .od {
+  padding: 0;
+}
+
+.right-cart .condi-mb {
+  display: none;
+}
+
+.list-thanh-toan .choose-bank {
+  padding: 10px 10px 25px 80px;
+}
+
+.list-thanh-toan .choose-bank ul.bank {
+  list-style-type: none;
+}
+
+.list-thanh-toan .choose-bank ul.bank li {
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  margin-right: 15px;
+  float: left;
+  width: 31%;
+  background-color: #f9f9f9;
+}
+
+.list-thanh-toan .choose-bank ul.bank li .radio-visa, .list-thanh-toan .choose-bank ul.bank li .radio-vietcombank, .list-thanh-toan .choose-bank ul.bank li .radio-vietinbank {
+  float: left;
+  display: inline-block;
+  position: relative;
+  padding: 14px 0;
+  margin: 0;
+}
+
+.list-thanh-toan .choose-bank ul.bank li .radio-visa input[type='radio'], .list-thanh-toan .choose-bank ul.bank li .radio-vietcombank input[type='radio'], .list-thanh-toan .choose-bank ul.bank li .radio-vietinbank input[type='radio'] {
+  float: left;
+  display: none;
+}
+
+.list-thanh-toan .choose-bank ul.bank li .radio-visa input[type='radio']:checked + label:after, .list-thanh-toan .choose-bank ul.bank li .radio-vietcombank input[type='radio']:checked + label:after, .list-thanh-toan .choose-bank ul.bank li .radio-vietinbank input[type='radio']:checked + label:after {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 33px;
+  left: 4px;
+  content: " ";
+  display: inline-block;
+  background: #f7941e;
+  border: 2px solid #f7941e;
+}
+
+.list-thanh-toan .choose-bank ul.bank li .radio-visa input[type='radio']:checked + label:before, .list-thanh-toan .choose-bank ul.bank li .radio-vietcombank input[type='radio']:checked + label:before, .list-thanh-toan .choose-bank ul.bank li .radio-vietinbank input[type='radio']:checked + label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #f7941e;
+  background-color: transparent;
+}
+
+.list-thanh-toan .choose-bank ul.bank li .radio-visa label, .list-thanh-toan .choose-bank ul.bank li .radio-vietcombank label, .list-thanh-toan .choose-bank ul.bank li .radio-vietinbank label {
+  color: #333333;
+  font-weight: normal;
+  float: left;
+  margin: 0;
+}
+
+.list-thanh-toan .choose-bank ul.bank li .radio-visa label:before, .list-thanh-toan .choose-bank ul.bank li .radio-vietcombank label:before, .list-thanh-toan .choose-bank ul.bank li .radio-vietinbank label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #dddddd;
+  background-color: transparent;
+}
+
+.list-thanh-toan .choose-bank ul.bank li .radio-visa label img, .list-thanh-toan .choose-bank ul.bank li .radio-vietcombank label img, .list-thanh-toan .choose-bank ul.bank li .radio-vietinbank label img {
+  padding: 0px 15px 5px 10px;
+  display: inline-block;
+}
+
+.list-thanh-toan .choose-bank ul.bank li .radio-visa label p, .list-thanh-toan .choose-bank ul.bank li .radio-vietcombank label p, .list-thanh-toan .choose-bank ul.bank li .radio-vietinbank label p {
+  display: block;
+  margin-left: 39px;
+  margin-top: 5px;
+  color: #333333;
+  font-size: 12.5px;
+}
+
+.list-thanh-toan .choose-bank ul.bank li .radio-vietcombank p, .list-thanh-toan .choose-bank ul.bank li .radio-vietinbank p {
+  display: block;
+  margin-left: 34px !important;
+  color: #333333;
+  font-size: 12.5px;
+}
+
+.list-thanh-toan .choose-bank ul.bank li.vietinbank {
+  margin-right: 0px;
+}
+
+@media (max-width: 575.98px) {
+  .left-cart-pay .left-box-list .title-input {
+    margin-left: 0;
+  }
+  .left-cart-pay .conditional-terms {
+    display: none;
+  }
+  .left-cart-pay .conditional-terms p input[type="checkbox"] {
+    display: inline-block;
+  }
+  .left-cart-pay .conditional-terms p label {
+    display: inline-block;
+    width: 90%;
+    margin-left: 8px;
+    line-height: 25px;
+  }
+  .right-cart .condi-mb {
+    display: none;
+  }
+  .menu-list-cart .container div {
+    text-align: left;
+  }
+  .menu-list-cart .container div .border-step {
+    text-align: center;
+  }
+  .right-cart .title-cart-right {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 575.98px) and (max-width: 767px) {
+  .right-cart .title-cart-right {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .right-cart .conditional-terms p {
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+}
+/*# sourceMappingURL=pay_code.css.map */

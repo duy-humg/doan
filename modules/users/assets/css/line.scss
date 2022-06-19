@@ -1,0 +1,99 @@
+.dangky{
+    .buoc_dk{
+        width: 541px;
+        margin: 60px auto;
+        display: flex;
+        .b_dk{
+            text-align: center;
+            .p-b{
+                margin: 0px auto 9px;
+                border: 1px solid rgba(0, 0, 0, 0.3);
+                box-sizing: border-box;
+                width: 34px;
+                height: 34px;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 13px;
+                text-align: center;
+                color: rgba(0, 0, 0, 0.3);
+                border-radius: 50%;
+            }
+            .p-text{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 13px;
+                text-align: center;
+                text-transform: capitalize;
+                color: rgba(0, 0, 0, 0.3);
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+        }
+        .line{
+            margin: 16px 20px 0px;
+            width: 84px;
+            border-top: 1px solid rgba(0, 0, 0, 0.38);
+            position: relative;
+            i{
+                position: absolute;
+                top: -5px;
+                right: -2px;
+                font-size: 9px;
+                color: rgba(0, 0, 0, 0.38);
+            }
+            .fa-chevron-down{
+                display: none;
+            }
+        }
+        .line_active{
+            border-top: 1px solid #30B566;
+            i{
+                color: #30B566;
+            }
+        }
+        .active{
+            .p-b{
+                border: unset;
+                background: #30B566;
+            }
+            .p-text{
+                color: #30B566;
+            }
+        }
+    }
+}
+@media(max-width: 550px){
+    .dangky .buoc_dk{
+        width: 100%!important;
+        display: block!important;
+        .line{
+            height: 50px;
+            width: 1px!important;
+            border-left: unset;
+            position: relative;
+            background: rgba(0, 0, 0, 0.38);
+            margin:20px auto 20px!important;
+            .fa-chevron-right{
+                display: none;
+            }
+            .fa-chevron-down{
+                display: block!important;
+                top: unset;
+                bottom: -4px;
+                right: -3px;
+            }
+        }
+        .b_dk{
+            margin-top: 20px;
+        }
+    }
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

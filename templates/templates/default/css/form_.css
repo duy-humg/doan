@@ -1,0 +1,348 @@
+/*form dang ky and dang nhap*/
+.text-center {
+  text-align: center;
+}
+
+a#close-cart {
+  float: right;
+  margin-top: -18px;
+  margin-right: -18px;
+}
+
+a#close-cart img {
+  padding: 10px 5px;
+}
+
+.form-sing-out, .form-sing-in {
+  padding: 2px;
+  background-color: #fff;
+  padding-right: 1px;
+  padding-left: 1px;
+  border-left: 1px solid #dddd;
+  margin-left: -1px;
+}
+
+@media (max-width: 768px) {
+  .form-sing-out, .form-sing-in {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.form-sing-out h3, .form-sing-in h3 {
+  font-size: 24px;
+  margin: 0;
+  padding: 20px 30px;
+  color: #333333;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+
+.form-sing-out input[type="text"], .form-sing-out input[type="email"], .form-sing-out input[type="password"], .form-sing-in input[type="text"], .form-sing-in input[type="email"], .form-sing-in input[type="password"], .form-sing-in input[type="tel"] {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  display: block;
+  height: 50px;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #333;
+  width: 380px;
+  background: #f5f5f5;
+  text-align: center;
+  border-radius: 3px;
+  border: unset;
+}
+
+@media (max-width: 768px) {
+  .form-sing-out input[type="text"], .form-sing-out input[type="email"], .form-sing-out input[type="password"], .form-sing-in input[type="text"], .form-sing-in input[type="email"], .form-sing-in input[type="password"], .form-sing-in input[type="tel"] {
+    width: 100%;
+  }
+}
+
+input[type="submit"] {
+  border: none;
+}
+
+.dieu_khoan {
+  width: 380px;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+  .dieu_khoan {
+    width: 100%;
+  }
+}
+
+.dieu_khoan .rules a {
+  color: #1caf4d;
+}
+
+.dieu_khoan .rules input[type='checkbox'] {
+  display: none;
+}
+
+.dieu_khoan .rules input[type='checkbox'] + label {
+  padding-left: 22px;
+  cursor: pointer;
+  position: relative;
+  font-weight: normal;
+}
+
+.dieu_khoan .rules input[type='checkbox'] + label:before {
+  content: '';
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  border: 2px solid #dddddd;
+  background-color: #ffffff;
+}
+
+.dieu_khoan .rules input[type='checkbox']:checked + label {
+  padding-left: 22px;
+}
+
+.dieu_khoan .rules input[type='checkbox']:checked + label:before {
+  background: url("../images/agree.png") no-repeat;
+  border: none;
+}
+
+.title_sdt {
+  font-weight: unset;
+  padding: 5px 20px;
+}
+
+.dkdn ::-webkit-input-placeholder {
+  color: #bbbbbb;
+  text-transform: uppercase !important;
+}
+
+.dkdn :-ms-input-placeholder {
+  color: #bbbbbb;
+  text-transform: uppercase !important;
+}
+
+.dkdn ::-ms-input-placeholder {
+  color: #bbbbbb;
+  text-transform: uppercase !important;
+}
+
+.dkdn ::placeholder {
+  color: #bbbbbb;
+  text-transform: uppercase !important;
+}
+
+.rules span {
+  font-size: 13px;
+}
+
+.submit_dk {
+  border: none;
+  display: block;
+  text-transform: uppercase;
+  background: #1caf4d;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 14px;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  border-radius: 3px;
+  padding: 17px 0;
+}
+
+@media (max-width: 768px) {
+  .submit_dk {
+    width: 100%;
+  }
+}
+
+.submit_dk:hover {
+  color: #fff;
+}
+
+.checkbox-dk {
+  margin: 20px 0;
+}
+
+.checkbox-dk span {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.checkbox-dk span a {
+  color: #0083c4;
+}
+
+.agant-login {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.agant-login a {
+  color: #0083c4;
+}
+
+.mrrgin-chose {
+  float: right;
+}
+
+.mrrgin-chose a {
+  color: #0083c4;
+}
+
+.login-order {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.login-order span:before, .login-order span:after {
+  content: '';
+  width: 100px;
+  border: 1px solid #dddddd;
+  display: inline-block;
+  vertical-align: 3px;
+}
+
+.login-order span:before {
+  margin-right: 10px;
+}
+
+.login-order span:after {
+  margin-left: 10px;
+}
+
+.login-using-sosial {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  width: 380px;
+}
+
+@media (max-width: 768px) {
+  .login-using-sosial {
+    width: 100%;
+  }
+}
+
+.mg {
+  margin: 0 3px !important;
+}
+
+@media (max-width: 767px) {
+  .mg {
+    display: block;
+  }
+}
+
+.login-using-sosial a {
+  display: block;
+  height: 50px;
+}
+
+.login-using-sosial a:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.form-sing-out .code-view {
+  background: url(../images/change_captcha.png) no-repeat scroll center center;
+  display: inline-block;
+  padding: 8px 12px;
+}
+
+@media (max-width: 768px) {
+  .login-order span:before, .login-order span:after {
+    content: none;
+  }
+  .login-using-sosial a {
+    width: 100%;
+  }
+}
+
+.dkdn {
+  margin-left: -1px;
+  margin-right: -1px;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .dkdn {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+
+.form_login {
+  padding-right: 1px;
+  padding-left: 1px;
+  border-right: 1px solid #dddd;
+}
+
+@media (max-width: 768px) {
+  .form_login {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+.body-content--1a {
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.body-content--1a h4 {
+  padding: 20px 30px;
+  margin: 0px;
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.body-content--1a .main-content--1a input {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  display: block;
+  height: 50px;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #333;
+  width: 380px;
+  background: #f5f5f5;
+  text-align: center;
+  border-radius: 3px;
+  border: unset;
+}
+
+@media (max-width: 768px) {
+  .body-content--1a .main-content--1a input {
+    width: 100%;
+  }
+}
+
+.body-content--1a .main-content--1a a small {
+  text-align: center;
+  display: block;
+  font-weight: normal;
+  padding: 2px 0px 12px;
+  color: #006cc6;
+  font-size: 14px;
+}
+
+.body-content--1a .main-content--1a p {
+  padding: 10px 0;
+  text-align: center;
+  margin: 0px;
+}
+
+/*end dk and dang nhap*/
+/*# sourceMappingURL=form_.css.map */

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ffa696c-6711-46fe-b0d7-f4e99b4a1373" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="21ktxCyaViPpIpLOsIxkI1k96bH" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tieuam/modules/download/views/home" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\home_farm\modules\products\assets\js" />
+      <recent name="F:\code\home_farm\modules\products\assets\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ffa696c-6711-46fe-b0d7-f4e99b4a1373" name="Default Changelist" comment="" />
+      <created>1638497156631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638497156631</updated>
+      <workItem from="1638497158488" duration="9284000" />
+      <workItem from="1638929111507" duration="10685000" />
+      <workItem from="1639024720206" duration="14224000" />
+      <workItem from="1639145570428" duration="52000" />
+      <workItem from="1639189377209" duration="7150000" />
+      <workItem from="1639360313096" duration="26145000" />
+      <workItem from="1639447188774" duration="4366000" />
+      <workItem from="1639453260647" duration="9005000" />
+      <workItem from="1639490898594" duration="494000" />
+      <workItem from="1639537846425" duration="7364000" />
+      <workItem from="1639552898246" duration="5168000" />
+      <workItem from="1639558196779" duration="6097000" />
+      <workItem from="1639619791773" duration="22834000" />
+      <workItem from="1639709064469" duration="21111000" />
+      <workItem from="1639815584469" duration="1064000" />
+      <workItem from="1639822376411" duration="37000" />
+      <workItem from="1639966687090" duration="10191000" />
+      <workItem from="1639983389903" duration="574000" />
+      <workItem from="1639985189795" duration="970000" />
+      <workItem from="1639986794776" duration="600000" />
+      <workItem from="1639990314628" duration="3762000" />
+      <workItem from="1640074269920" duration="7991000" />
+      <workItem from="1640139057660" duration="23345000" />
+      <workItem from="1640224163369" duration="104000" />
+      <workItem from="1640225203778" duration="122000" />
+      <workItem from="1640245738158" duration="765000" />
+      <workItem from="1640249146369" duration="6098000" />
+      <workItem from="1640310768666" duration="1085000" />
+      <workItem from="1640329967903" duration="10632000" />
+      <workItem from="1640397544910" duration="20369000" />
+      <workItem from="1640509309429" duration="34000" />
+      <workItem from="1640571712114" duration="9097000" />
+      <workItem from="1640592728658" duration="29000" />
+      <workItem from="1640678964963" duration="2748000" />
+      <workItem from="1640760199917" duration="1201000" />
+      <workItem from="1640922338069" duration="602000" />
+      <workItem from="1640923441309" duration="17342000" />
+      <workItem from="1641261204474" duration="391000" />
+      <workItem from="1641261659661" duration="14596000" />
+      <workItem from="1641285550007" duration="6927000" />
+      <workItem from="1641347389369" duration="11282000" />
+      <workItem from="1641366101599" duration="1525000" />
+      <workItem from="1641434956548" duration="11772000" />
+      <workItem from="1641537549556" duration="3516000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/templates/default/index.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/products/controllers/product.php</url>
+          <line>223</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/modules/products/views/products/detail_base.php</url>
+          <line>115</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/home/views/home/default.php</url>
+          <line>98</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/libraries/fsfiles.php</url>
+          <line>220</line>
+          <properties>
+            <option name="className" value="\FSFiles" />
+            <option name="methodName" value="resized_not_crop" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/../vtn3/code_vtn3/libraries/fsfiles.php</url>
+          <line>477</line>
+          <properties>
+            <option name="className" value="\FSFiles" />
+            <option name="methodName" value="resize_image_fix_height" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/modules/products/controllers/cat.php</url>
+          <line>213</line>
+          <properties>
+            <option name="className" value="\ProductsControllersCat" />
+            <option name="methodName" value="loadmore_hang" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/admin/modules/products/models/products.php</url>
+          <line>115</line>
+          <properties>
+            <option name="className" value="\ProductsModelsProducts" />
+            <option name="methodName" value="save" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/admin/modules/products/models/products.php</url>
+          <line>377</line>
+          <properties>
+            <option name="className" value="\ProductsModelsProducts" />
+            <option name="methodName" value="save_edit" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/libraries/fsfiles.php</url>
+          <line>136</line>
+          <properties>
+            <option name="className" value="\FSFiles" />
+            <option name="methodName" value="cropImge" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/libraries/fsfiles.php</url>
+          <line>405</line>
+          <properties>
+            <option name="className" value="\FSFiles" />
+            <option name="methodName" value="cut_image" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/modules/products/assets/js/lightslider.js</url>
+          <line>105</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

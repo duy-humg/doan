@@ -1,0 +1,50 @@
+/*
+Error: Invalid CSS after "bold": expected expression (e.g. 1px, bold), was ";"
+        on line 2 of new
+
+1: b{
+2:     font-weight: bold;
+3: }
+
+Backtrace:
+new:2
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/script/lexer.rb:240:in `expected!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/script/parser.rb:897:in `assert_done'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/script/parser.rb:69:in `parse'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/script/parser.rb:228:in `parse'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/script.rb:27:in `parse'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:1169:in `parse_script'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:745:in `parse_property'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:707:in `parse_property_or_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:666:in `parse_line'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:539:in `build_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:558:in `block in append_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `append_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:548:in `block in build_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:541:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:541:in `build_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:558:in `block in append_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `append_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:417:in `_to_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+C:/Ruby24-x64/bin/sass:23:in `load'
+C:/Ruby24-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"bold\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of new\A \A 1: b{\A 2:     font-weight: bold;\A 3: }"; }

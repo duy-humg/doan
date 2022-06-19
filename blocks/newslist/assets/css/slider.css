@@ -1,0 +1,68 @@
+h2.title-multi {
+  font-size: 18px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  background: url(../images/boder.jpg) repeat-x center;
+}
+
+h2.title-multi span {
+  background: #fff;
+  padding-right: 10px;
+}
+
+h2.title-multi span a {
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.newslist-home-slider {
+  border: 1px solid #c9c9c9;
+  margin-bottom: 15px;
+  padding: 7px 10px;
+  -webkit-box-shadow: 1px 1px 1px 0px #efefef;
+          box-shadow: 1px 1px 1px 0px #efefef;
+}
+
+.newslist-home-slider .slick-prev, .newslist-home-slider .slick-next {
+  width: 28px;
+  height: 28px;
+}
+
+.newslist-home-slider .slick-prev:before, .newslist-home-slider .slick-next:before {
+  content: '';
+}
+
+.newslist-home-slider .slick-prev {
+  background: url(../images/bottom_slider_01.png) no-repeat;
+}
+
+.newslist-home-slider .slick-prev:hover, .newslist-home-slider .slick-prev:focus {
+  background: url(../images/bottom_slider_01.png) no-repeat;
+}
+
+.newslist-home-slider .slick-next {
+  background: url(../images/bottom_slider_03.png) no-repeat;
+}
+
+.newslist-home-slider .slick-next:hover, .newslist-home-slider .slick-next:focus {
+  background: url(../images/bottom_slider_03.png) no-repeat;
+}
+
+.newslist-home-slider .slider-new .show-new-li {
+  padding: 10px;
+}
+
+.newslist-home-slider .slider-new .show-new-li a {
+  color: #333;
+}
+
+.newslist-home-slider .slider-new .show-new-li a:hover {
+  color: #ac0000;
+}
+
+.newslist-home-slider .slider-new .show-new-li h3 {
+  font-size: 13px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=slider.css.map */

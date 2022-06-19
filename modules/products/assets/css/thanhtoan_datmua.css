@@ -1,0 +1,701 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ebebeb !important;
+}
+
+body section {
+  padding: 20px 0 50px;
+}
+
+@media (max-width: 767px) {
+  body section {
+    padding: 0;
+  }
+}
+
+body section .container {
+  padding: 0;
+}
+
+body section .container .col-md-12 {
+  padding: 0;
+}
+
+body section .container .col-md-12 ._progress-bar {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #f7941e !important;
+  width: 68%;
+}
+
+body section .container .col-md-12 ._progress-bar span {
+  position: absolute;
+  bottom: -7px;
+  z-index: 1000;
+  left: 67%;
+}
+
+body section .container #nav-content {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+body section .container #nav-content ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+body section .container #nav-content ul li {
+  display: block;
+  float: left;
+  padding: 10px 63px;
+}
+
+@media (max-width: 767px) {
+  body section .container #nav-content ul li {
+    float: unset;
+    text-align: center;
+  }
+}
+
+body section .container #nav-content ul li a {
+  color: #555555;
+}
+
+body section .container #nav-content ul li:hover > a {
+  color: #f7941e;
+}
+
+body section .container #nav-content ul li #checked {
+  font-weight: bold;
+  color: #f7941e;
+}
+
+@media (max-width: 767px) {
+  body section .container #nav-content ul li #checked {
+    color: #fff;
+  }
+}
+
+body section .container #nav-content ul li #last-checked {
+  color: #f9b87c;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  body section .container #nav-content ul li #last-checked {
+    color: #555555;
+    font-weight: normal;
+  }
+}
+
+body section .container #body-content {
+  margin: 10px 0;
+}
+
+body section .container #body-content .col-md-4, body section .container #body-content .col-md-3 {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 1200px) {
+  body section .container #body-content .col-md-8 {
+    margin: 0;
+    padding: 0 10px 0 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  body section .container #body-content .col-md-8 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  body section .container #body-content .col-md-8 {
+    padding: 0;
+  }
+  body section .container #body-content .body4 {
+    margin-bottom: 10px;
+  }
+}
+
+body section .container #body-content .body-content--1a {
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+body section .container #body-content .body-content--1a .diachi-nhanhang, body section .container #body-content .body-content--1a .vanchuyen-thanhtoan, body section .container #body-content .body-content--1a .thongtin-muahang {
+  padding: 5px;
+}
+
+body section .container #body-content .body-content--1a .diachi-nhanhang h5, body section .container #body-content .body-content--1a .vanchuyen-thanhtoan h5, body section .container #body-content .body-content--1a .thongtin-muahang h5 {
+  padding: 6px 0px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+body section .container #body-content .body-content--1a .diachi-nhanhang hr, body section .container #body-content .body-content--1a .vanchuyen-thanhtoan hr, body section .container #body-content .body-content--1a .thongtin-muahang hr {
+  background-color: #e5e5e5;
+  height: 1px;
+  border: 0;
+  margin: 0;
+}
+
+body section .container #body-content .body-content--1a .diachi-nhanhang p, body section .container #body-content .body-content--1a .vanchuyen-thanhtoan p, body section .container #body-content .body-content--1a .thongtin-muahang p {
+  margin-bottom: 5px;
+}
+
+body section .container #body-content .body-content--1b {
+  margin-top: 10px;
+  background-color: #ffffff;
+  padding: 15px 30px;
+}
+
+body section .container #body-content .body-content--1b h5 {
+  font-weight: bold;
+  padding: 5px 0px 10px;
+}
+
+body section .container #body-content .body-content--1b .donhang ul {
+  list-style-type: none;
+  float: none;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-1 img {
+  margin: 4% 0;
+  padding-top: 15px;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-1 .chitiet-donhang1 {
+  padding: 15px 0px 15px 20px;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-1 .chitiet-donhang1 img {
+  margin: 0px;
+  width: 17px;
+  height: 15px;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-1 .chitiet-donhang1 h5 {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0 0 3px;
+  color: #333333;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-1 .chitiet-donhang1 p {
+  margin: 5px 0px !important;
+  color: #777777;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-1 .chitiet-donhang1 p b {
+  color: #ce0021 !important;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-1 .chitiet-donhang1 strong {
+  color: #333333;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-1 .chitiet-donhang1 q {
+  padding: 5px 0px;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-1 .chitiet-donhang1 .btn {
+  padding-left: 30px;
+  padding-right: 5px;
+  background: #e5e5e5 url("../images/icon-gift.png") top 5px left 8px no-repeat;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-2 img {
+  margin: 4% 0;
+  width: 80px;
+  height: 120px;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-2 .chitiet-donhang2 {
+  padding: 15px 0px 15px 20px;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-2 .chitiet-donhang2 h5 {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0 0 3px;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-2 .chitiet-donhang2 p {
+  margin: 5px 0px !important;
+  color: #777777;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-2 .chitiet-donhang2 p b {
+  color: #ce0021 !important;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-2 .chitiet-donhang2 strong {
+  color: #333333;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-2 .chitiet-donhang2 button {
+  padding: 7px;
+  border: 0;
+  background-color: #e5e5e5;
+  color: #333333;
+}
+
+body section .container #body-content .body-content--1b .donhang ul li.donhang-2 .chitiet-donhang2 button img {
+  margin: 0px 5px;
+  width: 17px;
+  height: 15px;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang h5 {
+  font-weight: bold;
+  padding: 5px 0px 10px;
+  font-size: 14px;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen1 {
+  display: block;
+  position: relative;
+  padding: 14px 0;
+  margin: 0 0;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen1 input[type='radio'] {
+  float: left;
+  display: none;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen1 input[type='radio']:checked + label:after {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 22.5px;
+  left: 4px;
+  content: " ";
+  display: block;
+  background: #f7941e;
+  border: 2px solid #f7941e;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen1 input[type='radio']:checked + label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #f7941e;
+  background-color: transparent;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen1 label {
+  float: left;
+  color: #333333;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen1 label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #dddddd;
+  background-color: transparent;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen1 label small {
+  margin-left: 32px;
+  color: #777777;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen1 p {
+  float: right;
+  padding: 10px 0px;
+  color: #006cc6;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen2 {
+  border-bottom: 0;
+  display: block;
+  position: relative;
+  padding: 14px 0;
+  margin: 0 0;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen2 input[type='radio'] {
+  float: left;
+  display: none;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen2 input[type='radio']:checked + label:after {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 23px;
+  left: 4px;
+  content: " ";
+  display: block;
+  background: #f7941e;
+  border: 2px solid #f7941e;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen2 input[type='radio']:checked + label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #f7941e;
+  background-color: transparent;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen2 input[type='radio']:checked + label:before img.img-onehour-no-checked {
+  display: none;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen2 label {
+  float: left;
+  color: #333333;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen2 label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #dddddd;
+  background-color: transparent;
+}
+
+body section .container #body-content .body-content--1b .hinhthuc-giaohang .list-vanchuyen .radio-vanchuyen2 label small {
+  margin-left: 32px;
+  color: #777777;
+}
+
+body section .container #body-content .body-content--2a {
+  background-color: #ffffff;
+  padding: 10px 0 0;
+  line-height: 25px;
+}
+
+body section .container #body-content .body-content--2a .h4 {
+  padding: 0 20px;
+}
+
+body section .container #body-content .body-content--2a .h4 h4 {
+  color: #333333;
+}
+
+body section .container #body-content .body-content--2a .h4 h4 span.badge {
+  background-color: #ffffff;
+  color: #333333;
+  opacity: 0.7;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+body section .container #body-content .body-content--2a hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #ebebeb;
+}
+
+body section .container #body-content .body-content--2a .product .col-md-2,
+body section .container #body-content .body-content--2a .product .col-md-3,
+body section .container #body-content .body-content--2a .product .col-md-7 {
+  padding: 0;
+  margin: 0;
+}
+
+body section .container #body-content .body-content--2a .product .purchase {
+  background-color: #ffffff;
+  padding-top: 5px;
+}
+
+@media only screen and (min-width: 1200px) {
+  body section .container #body-content .body-content--2a .product .purchase {
+    margin: 3px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  body section .container #body-content .body-content--2a .product .purchase {
+    margin: 2px;
+  }
+}
+
+body section .container #body-content .body-content--2a .product .purchase .purchase-detail--price {
+  padding-top: 5px;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .purchase-detail--price .row {
+  padding: 0;
+  margin: 0 20px;
+  border-bottom: 1px dashed #cccccc;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .purchase-detail--price .row .col-md-6 {
+  padding: 0;
+  margin: 0;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .purchase-detail--price .row .col-md-6 .purchase-detail--left {
+  text-align: left;
+  float: left;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .purchase-detail--price .row .col-md-6 .purchase-detail--left p.p1-left,
+body section .container #body-content .body-content--2a .product .purchase .purchase-detail--price .row .col-md-6 .purchase-detail--left p.p2-left {
+  color: #333333;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .purchase-detail--price .row .col-md-6 .purchase-detail--right {
+  text-align: right;
+  float: right;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .purchase-detail--price .row .col-md-6 .purchase-detail--right p.p1-right {
+  color: #333333;
+  font-size: 16px;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .purchase-detail--price .row .col-md-6 .purchase-detail--right p.p2-right {
+  color: #006cc6;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .total-price {
+  margin-top: 15px;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .total-price .row {
+  padding: 0;
+  margin: 0 20px;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .total-price .row .col-md-6 {
+  padding: 0;
+  margin: 0;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .total-price .row .col-md-6 .total-price--left {
+  text-align: left;
+  float: left;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .total-price .row .col-md-6 .total-price--left p {
+  color: #333333;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .total-price .row .col-md-6 .total-price--right {
+  text-align: right;
+  float: right;
+}
+
+body section .container #body-content .body-content--2a .product .purchase .total-price .row .col-md-6 .total-price--right p {
+  color: #ce0021;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body section .container #body-content .body-content--2b {
+  margin: 10px 0;
+  padding: 23px 0 20px;
+  background-color: #ffffff;
+}
+
+body section .container #body-content .body-content--2b h4 {
+  padding: 0 20px;
+}
+
+body section .container #body-content .body-content--2b .row {
+  padding: 0 20px;
+  margin: 0;
+}
+
+body section .container #body-content .body-content--2b .row input {
+  float: left;
+  width: 80%;
+  height: 40px;
+  padding: 0 15px;
+  border: 0.5px solid #dddddd;
+}
+
+body section .container #body-content .body-content--2b .row button {
+  float: right;
+  width: 20%;
+  background-color: #252525;
+  padding: 4px 0px;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 0;
+  border: 0.5px solid #252525;
+}
+
+body section .container #body-content .body-content--2c {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+body section .container #body-content .body-content--2c input[type=checkbox] {
+  display: none;
+}
+
+body section .container #body-content .body-content--2c label {
+  position: relative;
+  padding-left: 20px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+body section .container #body-content .body-content--2c span:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  border: 1px solid #333333;
+  left: 0;
+  top: 1px;
+}
+
+body section .container #body-content .body-content--2c input[type=checkbox]:checked + label span:before {
+  content: "\2713";
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 16px;
+  background-color: #f7941e;
+  border: 1px solid #f7941e;
+}
+
+body section .container #body-content .body-content--2c button {
+  background-color: #f7941e;
+  border-radius: 0;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+}
+
+#body-content .left-box-list {
+  background-color: #ffffff;
+  margin: 10px 0;
+  padding: 20px;
+}
+
+#body-content .left-box-list .check-show-hide label {
+  font-size: 14px;
+  color: #333333;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+#body-content .left-box-list .code_down_price input {
+  width: 100%;
+  border: 1px solid #dddddd;
+  height: 40px;
+  padding: 0 14px;
+  color: #999999;
+  font-size: 14px;
+}
+
+#body-content .left-box-list .code_down_price .add_code_price {
+  display: block;
+  width: 90%;
+  height: 40px;
+  padding-top: 8px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #252525;
+}
+
+.body-content--2c .od .order input {
+  height: 40px;
+  width: 100%;
+  background: #f7941e;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.rules {
+  margin-bottom: 10px;
+}
+
+.rules label span {
+  padding-left: 5px;
+}
+
+@media (max-width: 767px) {
+  .cart_pc {
+    display: none;
+  }
+  .choice1 {
+    background-color: #f7941e;
+  }
+  #nav-content ul li a {
+    display: block;
+  }
+  .left-cart-pay {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .pc30 {
+    padding: 0;
+  }
+  .right-cart {
+    padding: 0;
+  }
+}
+
+.body3 a {
+  text-decoration: none !important;
+  color: #006cc6;
+}
+
+.body3 a:hover {
+  color: #006cc6;
+}
+/*# sourceMappingURL=thanhtoan_datmua.css.map */

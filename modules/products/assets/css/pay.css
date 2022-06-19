@@ -1,0 +1,215 @@
+.menu-list-cart .container .border-step {
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu-list-cart .container div {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 25px;
+  text-align: center;
+  position: relative;
+}
+
+.menu-list-cart .container .background-cart-1 {
+  background: #ce0021;
+  color: #fff;
+}
+
+.menu-list-cart .container .background-cart-1 .border-step {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+}
+
+.menu-list-cart .container .background-cart-2 {
+  background: #dedfe2;
+  color: #333;
+}
+
+.menu-list-cart .container .background-cart-2:before {
+  content: '';
+  width: 0;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  height: 0;
+  border-top: 24px solid #dedfe2;
+  border-bottom: 24px solid #dedfe2;
+  border-left: 12px solid #ce0021;
+}
+
+.menu-list-cart .container .background-cart-2:after {
+  content: '';
+  width: 0;
+  position: absolute;
+  right: -12px;
+  top: 0;
+  height: 0;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-left: 12px solid #dedfe2;
+}
+
+.form-login {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 30px 0;
+}
+
+.form-login .tip-title {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.form-login .not_member_form_pay {
+  display: none;
+}
+
+.form-login form input[type="text"], .form-login form input[type="password"] {
+  width: 100%;
+  border: 1px solid #dddddd;
+  height: 40px;
+  padding: 0 14px;
+  margin-bottom: 13px;
+  border-radius: 5px;
+}
+
+.form-login form input[type="radio"] {
+  vertical-align: middle;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.form-login form .forget-password {
+  margin-bottom: 15px;
+}
+
+.form-login form .forget-password a {
+  color: #007ff0;
+}
+
+.form-login form .submit1 {
+  font-size: 16px !important;
+  color: #ffffff !important;
+  background: #f7941e !important;
+  width: 100% !important;
+  height: 40px !important;
+  margin-bottom: 14px !important;
+  text-transform: uppercase !important;
+}
+
+.form-login form .radio-check-member label {
+  margin: 0;
+  font-weight: normal;
+}
+
+.form-login form .radio-check-member p {
+  margin-bottom: 10px;
+}
+
+.right-cart .title-cart-right {
+  padding: 20px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #333333;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.right-cart .title-cart-right .soluong {
+  font-size: 14px;
+  color: #333333;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.right-cart .list-products-cart {
+  border-top: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.right-cart .list-products-cart .list-products {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.right-cart .list-products-cart .list-products ul li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #ddd;
+}
+
+.right-cart .list-products-cart .list-products ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.right-cart .list-products-cart .list-products ul li p {
+  text-align: right;
+}
+
+.right-cart .list-products-cart .list-products ul li a {
+  display: block;
+}
+
+.right-cart .list-products-cart .list-products ul li a img {
+  float: left;
+  margin-right: 5px;
+}
+
+.right-cart .list-products-cart .price-total {
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.right-cart .list-products-cart .price-total ul li {
+  margin-bottom: 12px;
+}
+
+.right-cart .list-products-cart .price-total p {
+  border-top: 1px dotted #ddd;
+  padding-top: 15px;
+}
+
+.right-cart .list-products-cart .price-total span {
+  float: right;
+}
+
+.right-cart .list-products-cart .price-total .red-price {
+  color: #333333;
+  font-size: 16px;
+}
+
+.right-cart .list-products-cart .price-total .fred {
+  color: #ce0021;
+  font-weight: bold;
+}
+
+.right-cart .list-products-cart .price-total .blue-price {
+  font-size: 14px;
+  color: #007ff0;
+}
+
+@media (max-width: 575.98px) {
+  .menu-list-cart .container div {
+    text-align: left;
+    padding-left: 20%;
+  }
+  .menu-list-cart .container div .border-step {
+    text-align: center;
+  }
+  .right-cart .title-cart-right {
+    margin-top: 15px;
+  }
+}
+/*# sourceMappingURL=pay.css.map */

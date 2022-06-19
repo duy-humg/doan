@@ -1,0 +1,19 @@
+<pre class='xdebug-var-dump' dir='ltr'>
+<small>F:\code\home_farm\modules\products\controllers\cat.php:193:</small>
+<b>array</b> <i>(size=1)</i>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>object</b>(<i>stdClass</i>)[<i>61</i>]
+      <i>public</i> 'id' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'288'</font> <i>(length=3)</i>
+      <i>public</i> 'name' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'V.Food'</font> <i>(length=6)</i>
+      <i>public</i> 'alias' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'vfood'</font> <i>(length=5)</i>
+      <i>public</i> 'published' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+      <i>public</i> 'ordering' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2'</font> <i>(length=1)</i>
+      <i>public</i> 'image' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'/original/rectangle-36_1638933364.png'</font> <i>(length=37)</i>
+      <i>public</i> 'icon' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+      <i>public</i> 'created_time' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2021-12-08 10:16:04'</font> <i>(length=19)</i>
+      <i>public</i> 'updated_time' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2021-12-08 10:16:04'</font> <i>(length=19)</i>
+      <i>public</i> 'show_in_homepage' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+      <i>public</i> 'seo_title' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+      <i>public</i> 'seo_keyword' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+      <i>public</i> 'seo_description' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+</pre>

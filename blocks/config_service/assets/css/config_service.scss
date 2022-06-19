@@ -1,0 +1,139 @@
+.config_service-default {
+	max-width: 980px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -155px;
+	z-index: 1;
+
+	.row {
+		margin-left: -1px;
+		margin-right: -1px;
+	}
+
+	.col-xs-12 {
+		padding-left: 1px;
+		padding-right: 1px;
+	}
+
+	.item-intro {
+		margin-bottom: 10px;
+		border-bottom: 2px solid #cccccc;
+		background: #fff;
+		position: relative;
+
+		h3 {
+			font-size: 20px;
+			font-weight: bold;
+			color: #006cc6;
+			text-align: center;
+			padding: 25px 0 8px;
+			@media (max-width: 768px) {
+				font-size: 17px;
+			}
+		}
+
+		summary {
+			font-size: 16px;
+			font-weight: bold;
+			color: #333333;
+			text-align: center;
+			padding: 8px 0;
+		}
+
+		.contents {
+			ul {
+				height: 102px;
+				overflow: auto;
+
+				li {
+					font-size: 16px;
+					color: #333333;
+					margin: 0;
+					padding: 8px 0 8px 40px;
+					position: relative;
+
+					&:before {
+						position: absolute;
+						left: 10px;
+						top: 5px;
+						content: "";
+						width: 20px;
+						height: 20px;
+						background: url("../images/danhmuc.png") center no-repeat;
+					}
+					@media (max-width: 768px) {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+
+		.buy-ndt {
+			margin: 20px;
+			text-align: center;
+
+			a {
+				padding: 10px;
+				font-size: 16px;
+			}
+
+			.link1 {
+				background: #f7941d;
+				border-radius: 5px;
+				color: #ffffff;
+			}
+
+			.link2 {
+				color: #006cc6;
+			}
+		}
+	}
+
+	.sales-intro {
+		position: absolute;
+		top: 0;
+		width: 120px;
+		height: 132px;
+		padding: 35px 20px;
+		color: #fff;
+		// p {
+		// 	font-size: 16px;
+		// 	color: #ffffff;
+		// 	padding: 30px 15px;
+		// 	line-height: 25px;
+		//
+		// 	span {
+		// 		font-size: 20px;
+		// 		font-weight: bold;
+		// 	}
+		// }
+	}
+
+	.posis-1,
+	.posis-3 {
+		background: url("../images/right-after.png") center no-repeat;
+		right: -90px;
+		@media (max-width: 1024px) {
+			right: 0;
+		}
+	}
+
+	.posis-1,
+	.posis-2 {
+		top: -100px;
+	}
+
+	.posis-3,
+	.posis-4 {
+		bottom: -100px;
+	}
+
+	.posis-2,
+	.posis-4 {
+		background: url("../images/left-after.png") center no-repeat;
+		left: -90px;
+		@media (max-width: 1024px) {
+			left: 0;
+		}
+	}
+}

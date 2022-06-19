@@ -1,0 +1,190 @@
+.calenda-default {
+  float: left;
+  width: 374px;
+  margin-bottom: 20px;
+}
+
+.calenda-default .content {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: 1px solid #e1e1e1;
+  -webkit-box-shadow: 0 1px 3px rgba(102, 102, 102, 0.1);
+          box-shadow: 0 1px 3px rgba(102, 102, 102, 0.1);
+}
+
+.calenda-default .month {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 1px;
+  border: 1px solid #e1e1e1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: #fff;
+  position: relative;
+}
+
+.calenda-default .month:before, .calenda-default .month:after {
+  bottom: -12px;
+  background: url("../images/icon-calenda.png") no-repeat center center;
+  position: absolute;
+  content: '';
+  width: 17px;
+  height: 21px;
+}
+
+.calenda-default .month:before {
+  left: 10px;
+}
+
+.calenda-default .month:after {
+  right: 10px;
+}
+
+.calenda-default .month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.calenda-default .month ul li {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.calenda-default .month ul li span {
+  font-size: 16px;
+  color: #116bb3;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+
+.calenda-default .month .prev {
+  float: left;
+  cursor: pointer;
+}
+
+.calenda-default .month .next {
+  float: right;
+  cursor: pointer;
+}
+
+.calenda-default .weekdays {
+  margin: 0;
+  padding: 12px 0;
+  background-color: #f8f8f8;
+}
+
+.calenda-default .weekdays li {
+  display: inline-block;
+  width: 13%;
+  color: #666;
+  text-align: center;
+  font-size: 16px;
+}
+
+.calenda-default .days {
+  padding: 0px;
+  background: #ffffff;
+  margin: 0;
+}
+
+.calenda-default .days li {
+  list-style-type: none;
+  float: left;
+  width: 14%;
+  text-align: center;
+  padding: 5px 0px;
+  line-height: 36px;
+  font-size: 16px;
+  color: #777777;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.calenda-default .days .light_sky {
+  color: #bbbbbb;
+}
+
+.calenda-default .days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important;
+}
+
+.calenda-default .tooltips {
+  position: relative;
+}
+
+.calenda-default .tooltips .tooltiptext {
+  visibility: hidden;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  width: 220px;
+  border: 2px solid #43b9f6;
+  background-color: #ffffff;
+  color: #333333;
+  border-radius: 4px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 100%;
+  margin-left: -60px;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.calenda-default .tooltips .tooltiptext span {
+  display: block;
+  padding-left: 10px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.calenda-default .tooltips .tooltiptext span:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  border-width: 2px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #43b9f6;
+}
+
+.calenda-default .tooltips .tooltiptext:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 28px;
+  margin-left: -5px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #43b9f6 transparent transparent transparent;
+}
+
+.calenda-default .tooltips:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.calenda-default .light_sky.tooltips time {
+  border-radius: 50%;
+  background-color: #bbbbbb !important;
+  color: #ffffff !important;
+  display: inline-block;
+  width: 36px;
+  margin: 0px auto;
+}
+
+.calenda-default .light_to.tooltips time, .calenda-default .grey.tooltips time {
+  border-radius: 50%;
+  background-color: #f8600c !important;
+  color: #ffffff !important;
+  display: inline-block;
+  width: 36px;
+  margin: 0px auto;
+}
+/*# sourceMappingURL=default.css.map */

@@ -1,0 +1,38 @@
+ FROM fs_products
+						  WHERE ( category_id = 1932 
+						  	OR category_id_wrapper like "%,1932,%" )
+						  	AND published = 1
+						  	 AND name like '%Viên t%' ORDER BY  price ASC<div class="row list_prd">
+
+        
+            <div class="image-check item_sp  mg-top   col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <a class="img" href="http://homefarm.local:800/vien-tha-lau-dp1058.html">
+                    <img src="http://homefarm.local:800/images/products/2021/12/11/tiny/68_1639198025.png" alt="Viên thả lẩu">
+                </a>
+                <a class="name_sp" href="http://homefarm.local:800/vien-tha-lau-dp1058.html">Viên thả lẩu</a>
+                <div class="money_sp">
+                    <p class="text-price" >50.000đ</p>
+                                            <p class="text-price-old">220.000đ</p>
+                        <p class="giamgia">-78%</p>
+                    
+                </div>
+                <a class="a-more" href="http://homefarm.local:800/vien-tha-lau-dp1058.html">CHỌN MUA</a>
+            </div>
+
+        
+            <div class="image-check item_sp  mg-top   col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <a class="img" href="http://homefarm.local:800/vien-tha-lau-tong-hop-dp1057.html">
+                    <img src="http://homefarm.local:800/images/products/2021/12/11/tiny/frame-214_1639189686.png" alt="Viên thả lẩu tổng hợp">
+                </a>
+                <a class="name_sp" href="http://homefarm.local:800/vien-tha-lau-tong-hop-dp1057.html">Viên thả lẩu tổng hợp</a>
+                <div class="money_sp">
+                    <p class="text-price" >89.000đ</p>
+                                            <p class="text-price-old">150.000đ</p>
+                        <p class="giamgia">-41%</p>
+                    
+                </div>
+                <a class="a-more" href="http://homefarm.local:800/vien-tha-lau-tong-hop-dp1057.html">CHỌN MUA</a>
+            </div>
+
+        
+</div>

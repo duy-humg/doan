@@ -1,0 +1,7 @@
+
+  SELECT *
+                        FROM fs_products 
+                        WHERE published = 1   AND ( `name` like '%thủ%' AND  `name` like '%thi·%' )
+                      
+                        LIMIT 20
+                        {"query":"th\u1ee7 thi\u00b7","suggestions":[]}

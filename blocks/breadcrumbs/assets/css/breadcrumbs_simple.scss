@@ -1,0 +1,41 @@
+#main-breadcrumbs {
+    background-color: #f5f5f5;
+    padding: 15px 0;
+    
+    .fa.fa-home {
+        color: #da251c;
+        font-size: 22px;
+        float: left;
+        margin-right: 10px;
+        position: relative;
+        margin-top: -4px;
+    }
+    
+    ol {
+        li {
+            float: left;
+            
+            i {
+                margin: 0 5px 0 10px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    #main-breadcrumbs {
+        font-size: 11px;
+        
+        .active {
+            display: none;
+        }
+        
+        ol {
+            li:nth-child(1) {
+                display: none;
+            }
+            
+        }
+    }
+}

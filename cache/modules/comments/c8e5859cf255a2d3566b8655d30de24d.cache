@@ -1,0 +1,50 @@
+
+
+<script>
+	function load_ajax_pagination($value){
+		$.get($value,{}, function(html){
+			$('#_info_comment').html(html);
+		    $('html, body').animate({scrollTop:$('#_info_comment').position().top}, 'slow');
+		});
+	}
+</script>
+    <div class='_contents comments_contents row-item'>
+        
+            <div class="comment-item comment-item-98 parent comment_level_0 comment_sub_0"   ><div class="content9_1"><img class="img_user img_ava" alt="noavarta"  src="https://tantien.phongcachso.com/images/avt_cmt.png"><p class="name "><span class="user_name">Phạm Anh Dũng</span>
+                <p class="date">13:09:54 01-09-2020 </p>
+        </div><div class="row-item item-comment"><p class="star-detail fl" data-rating="3"></p><span class="danhgia"></span><p class="content">cv cv cv c</p></div></div></div>            </div>
+    <div class='pagination row-item' style='text-align: right;'><a class='first-page' href='javascript:void(0)' title='first_page' onclick='load_ajax_pagination("/index.php?module=comments&view=comments&raw=1&id=119964&cmt_module=products&cmt_view=product&cmt_return=L2RhdS1zaGlueS1zODgyLWRwMTE5OTY0Lmh0bWw=")'  >&nbsp;Trang đầu</a><a class='pre-page' href='javascript:void(0)' title='pre_page' onclick='load_ajax_pagination("/index.php?module=comments&view=comments&raw=1&id=119964&cmt_module=products&cmt_view=product&cmt_return=L2RhdS1zaGlueS1zODgyLWRwMTE5OTY0Lmh0bWw=")'  >&laquo;</a><a class='other-page'  href='javascript:void(0)' title='Page 1' onclick='load_ajax_pagination("/index.php?module=comments&view=comments&raw=1&id=119964&cmt_module=products&cmt_view=product&cmt_return=L2RhdS1zaGlueS1zODgyLWRwMTE5OTY0Lmh0bWw=")'  ><span>1</span></a><font title='Page 2' class='current'>2</font></div>
+
+<script>
+    display_hidden_comment_form();
+
+    function display_hidden_comment_form() {
+        $('.button_reply').click(function () {
+            $(this).next().removeClass('hide');
+            $(this).addClass('hide');
+        });
+        $('.button_reply_close').click(function () {
+            $(this).parent().parent().parent().parent().addClass('hide');
+            $(this).parent().parent().parent().parent().parent().children('a').removeClass('hide');
+        });
+    }
+
+    $(document).ready(function () {
+        if ($('.star-detail').attr('data-rating')) {
+
+            $('.star-detail').raty({
+                readOnly: true,
+
+                score: function () {
+                    return $(this).attr('data-rating');
+                },
+                starOff: 'images/icon_sao3.png',
+                starOn: 'images/icon_sao1.png',
+                targetFormat: '{score}',
+
+            });
+        }
+
+    })
+
+</script>

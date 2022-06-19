@@ -1,0 +1,105 @@
+
+
+<p class="text-chon">
+    <a class="a-ql"  onclick="ql_xa()" href="javascript:void(0)"><i class="fal fa-chevron-left"></i></a>
+    Chọn Xã/Phường Tại H. Thường Tín</p>
+<input type="hidden" id="id_city_menu" value="279">
+<div class="nd_vitri">
+    <div class="input-search-vitri">
+        <input type="text" id="huyen_search" value="" placeholder="Tìm nhanh tỉnh thành, quận huyện...">
+    </div>
+    <div class="list_vitri">
+        <div class="box box-list-address">
+            <ul>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10267)">Minh Cường</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10264)">Vạn Điểm</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10261)">Văn Tự</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10258)">Tô Hiệu</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10255)">Nghiêm Xuyên</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10252)">Thống Nhất</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10249)">Dũng Tiến</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10246)">Thắng Lợi</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10243)">Lê Lợi</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10240)">Tân Minh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10237)">Chương Dương</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10234)">Quất Động</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10231)">Nguyễn Trãi</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10228)">Thư Phú</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10225)">Hà Hồi</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10222)">Tiền Phong</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10219)">Tự Nhiên</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10216)">Văn Phú</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10213)">Liên Phương</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10210)">Vân Tảo</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10207)">Hồng Vân</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10204)">Hiền Giang</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10201)">Văn Bình</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10198)">Hòa Bình</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10195)">Khánh Hà</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10192)">Duyên Thái</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10189)">Nhị Khê</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10186)">Ninh Sở</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10183)">Thường Tín</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+<script>

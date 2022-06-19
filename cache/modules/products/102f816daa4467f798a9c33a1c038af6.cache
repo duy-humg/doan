@@ -1,0 +1,7 @@
+
+  SELECT *
+                        FROM fs_products 
+                        WHERE published = 1   AND `name` like '%THỦ THI·%'
+                      
+                        LIMIT 20
+                        {"query":"TH\u1ee6 THI\u00b7","suggestions":[]}

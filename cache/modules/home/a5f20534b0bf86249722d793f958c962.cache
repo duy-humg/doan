@@ -1,0 +1,87 @@
+
+
+<p class="text-chon">
+    <a class="a-ql"  onclick="ql_huyen()" href="javascript:void(0)"><i class="fal fa-chevron-left"></i></a>
+    Chọn Quận huyện Tại Phú Thọ</p>
+<input type="hidden" id="id_city_menu" value="25">
+<div class="nd_vitri">
+    <div class="input-search-vitri">
+        <input type="text" id="huyen_search" value="" placeholder="Tìm nhanh tỉnh thành, quận huyện...">
+    </div>
+    <div class="list_vitri">
+        <div class="box box-list-address">
+            <ul>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(240)">Tân Sơn</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(239)">Thanh Thuỷ</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(238)">Thanh Sơn</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(237)">Lâm Thao</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(236)">Tam Nông</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(235)">Cẩm Khê</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(234)">Yên Lập</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(233)">Phù Ninh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(232)">Thanh Ba</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(231)">Hạ Hoà</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(230)">Đoan Hùng</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(228)">Phú Thọ</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(227)">Việt Trì</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+
+        $("#huyen_search").keypress(function(){
+            huyen_search =  $("#huyen_search").val();
+            id_city_menu =  $("#id_city_menu").val();
+
+
+            let str = huyen_search;
+
+            if(str.length>=1){
+                $.ajax({
+                    url: "index.php?module=home&view=home&task=search_huyen&raw=1",
+                    type: 'GET',
+                    data: {huyen_search: huyen_search,id_city_menu:id_city_menu},
+                    dataType: 'html',
+                    success: function (data) {
+
+                        $(".box-list-address").html(data);
+                        // $(".item-service"+$i).remove();
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        alert('Có lỗi trong quá trình đưa lên máy chủ. Xin bạn vui lòng kiểm tra lỗi kết nối.');
+                    }
+                });
+            }
+        });
+    });
+
+
+</script>

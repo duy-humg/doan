@@ -1,0 +1,36 @@
+.newslist-home-inner {
+  border: 1px solid #c9c9c9;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  -webkit-box-shadow: 1px 1px 1px 0px #efefef;
+          box-shadow: 1px 1px 1px 0px #efefef;
+}
+
+.newslist-home-inner h2 {
+  background: #2391d0 url(../images/title.png) no-repeat center right;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+
+.newslist-home-inner h2 a {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.newslist-home-inner ul {
+  padding: 15px;
+}
+
+.newslist-home-inner ul li {
+  margin-bottom: 15px;
+}
+
+.newslist-home-inner ul li a i {
+  font-size: 4px;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+/*# sourceMappingURL=home.css.map */

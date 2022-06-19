@@ -1,0 +1,126 @@
+.dangky .form {
+  width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 30px 30px 70px 30px;
+  text-align: center;
+}
+
+.dangky .form .p-text-xacminh {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  margin-bottom: 30px;
+  /* identical to box height */
+  text-align: center;
+  /* % / 87 */
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.dangky .form .p-text-phone {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+  text-align: center;
+  /* % / 87 */
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.dangky .form .p-text-phone span {
+  display: block;
+  color: #F89A43;
+}
+
+.dangky .form .p-text-time {
+  margin-bottom: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  /* or 18px */
+  text-align: center;
+  /* % / 87 */
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.dangky .form .p-text-time span {
+  display: block;
+}
+
+.dangky .form .a-ql-thanhcong {
+  width: 340px;
+  height: 40px;
+  left: 80px;
+  top: 390px;
+  margin: 60px auto 0px;
+  background: rgba(248, 154, 67, 0.7);
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 3px;
+  color: #FFFFFF;
+}
+
+.dangky .form .a-ql-thanhcong:hover {
+  background: #F89A43;
+}
+
+.dangky2 {
+  margin: 134px 0px 133px;
+}
+
+@media (max-width: 767px) {
+  body header {
+    height: 100px !important;
+  }
+  #main {
+    margin-top: 100px;
+  }
+  .menu_orther {
+    padding-bottom: 0px;
+  }
+  body header .header-logo {
+    padding: 30px 0px !important;
+  }
+  #main {
+    padding: 0px 0 75px 0;
+  }
+  .table-responsive {
+    border: unset;
+  }
+  .dangky .form {
+    width: 100%;
+  }
+  .dangky .form {
+    padding: 30px 10px 50px 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .main .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .dangky2 .form {
+    margin-top: 120px;
+    margin-bottom: 0px;
+  }
+}
+/*# sourceMappingURL=thanhcong.css.map */

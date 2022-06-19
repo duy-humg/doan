@@ -1,0 +1,51 @@
+
+.menu_right_hd{
+  h3{
+    display: none;
+  }
+	color: #000;
+	.title_content{
+		font-size: 18px;
+    	text-transform: uppercase;
+		background: url(../images/boderbot.png) no-repeat bottom -1px left 14px;
+		padding: 10px 0px 15px 10px;
+		border-bottom: 1px solid #e5e5e5;
+		font-weight: bold;
+		color: #333333;
+		i{
+			margin-right: 10px;
+		}
+	}
+	.navbar-nav_hd{
+		margin-top: 0;
+		float: none;
+		li{
+			//float: none;
+			display: inline-block;
+			a{
+				font-size: 14px;
+				padding: 0 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 15px;
+                font-family: Poppins-Medium;
+                color: #333333;
+				i{
+					font-size: 14px;
+					padding-right: 5px;
+				}
+			}
+			&:hover {
+				a{
+					color: #F89A43;
+					background: none;
+				}
+			}
+		}
+      .item-home{
+        a{
+          padding: 0px 10px 0px 0px;
+        }
+      }
+	}
+}

@@ -1,0 +1,79 @@
+.block_vote h2 {
+  font-size: 14px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  background: url(../images/boder.jpg) repeat-x center;
+}
+
+.block_vote h2 span {
+  background: #fff;
+  padding-right: 10px;
+}
+
+.block_vote form {
+  border: 1px solid #c9c9c9;
+  -webkit-box-shadow: 1px 1px 1px 0px #efefef;
+          box-shadow: 1px 1px 1px 0px #efefef;
+  padding: 10px;
+}
+
+.block_vote form h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.block_vote form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.block_vote form label input {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.block_vote form input[type="submit"] {
+  background: #2391d0;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px 22px;
+  margin-right: 10px;
+}
+
+.block_vote form .show_answers {
+  background: #f20123;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px 22px;
+}
+
+.popup-show-info #close-cart {
+  position: absolute;
+  right: -16px;
+  top: -17px;
+}
+
+.popup-show-info .head_popup {
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px;
+  background: #0061a6;
+  color: #fff;
+}
+
+.popup-show-info .content-poup {
+  padding-bottom: 20px;
+}
+
+.popup-show-info .content-poup ul li {
+  font-size: 16px;
+  margin-bottom: 0;
+  text-align: center;
+}
+/*# sourceMappingURL=vote.css.map */

@@ -1,0 +1,320 @@
+.dangky {
+  background: #F89A43;
+  padding: 89px 0px 89px 0px;
+}
+
+.dangky .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.dangky p {
+  margin-bottom: 0px;
+}
+
+.dangky .left_dangky {
+  padding-left: 240px;
+  padding-right: 0px;
+}
+
+.dangky .left_dangky .logo_text {
+  width: 313px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.dangky .left_dangky .logo_text .p-text {
+  margin-top: 60px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.dangky .right_dangky {
+  padding-left: 79px;
+  padding-right: 0px;
+}
+
+.dangky .right_dangky .form_dk {
+  background: #fff;
+  width: 400px;
+  padding: 30px;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .dn_password {
+  margin-top: 30px;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal input {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  height: 40px;
+  width: 100%;
+  padding: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.dangky .right_dangky .form_dk .form-horizontal input:focus {
+  outline: unset;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal input::-webkit-input-placeholder {
+  /* Edge */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.24);
+}
+
+.dangky .right_dangky .form_dk .form-horizontal input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.24);
+}
+
+.dangky .right_dangky .form_dk .form-horizontal input::-ms-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.24);
+}
+
+.dangky .right_dangky .form_dk .form-horizontal input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.24);
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .submit_dk {
+  display: block;
+  font-style: normal;
+  height: auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  background: rgba(248, 154, 67, 0.7);
+  border-radius: 3px;
+  padding: 13px 0px 12px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .submit_dk:hover {
+  background: #F89A43;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .submit1 {
+  height: 40px;
+  display: block;
+  font-style: normal;
+  height: auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  background: rgba(248, 154, 67, 0.7);
+  border-radius: 3px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .submit1:hover {
+  background: #F89A43;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .a-quen {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #3996D3;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .or {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .or .p-or {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 12%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.24);
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .or span {
+  margin-top: 5.5px;
+  width: 44%;
+  display: block;
+  border-top: 0.5px solid #22383F;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .face_gg .face {
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .face_gg .face a {
+  display: block;
+  background: #4267B2;
+  border-radius: 3px;
+  text-align: center;
+  padding: 11px 0px 9px;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .face_gg .face a span {
+  padding: 2px 0px 2px 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  color: #FFFFFF;
+  background: url("../images/face.svg") no-repeat top left;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .face_gg .gg {
+  padding-left: 5px;
+  padding-right: 0px;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .face_gg .gg a {
+  display: block;
+  background: #DB4437;
+  border-radius: 3px;
+  text-align: center;
+  padding: 11px 0px 9px;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .face_gg .gg a span {
+  padding: 2px 0px 2px 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  color: #FFFFFF;
+  background: url("../images/google.svg") no-repeat top left;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .p-dk {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 30px;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .p-dk a {
+  color: #F89A43;
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .p-dn {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.24);
+}
+
+.dangky .right_dangky .form_dk .form-horizontal .p-dn a {
+  color: #F89A43;
+}
+
+#footer {
+  margin-top: 0px;
+}
+
+.label_error {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.label_success {
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  body header {
+    height: 100px !important;
+  }
+  #main {
+    margin-top: 100px;
+  }
+  .menu_orther {
+    padding-bottom: 0px;
+  }
+  body header .header-logo {
+    padding: 30px 0px !important;
+  }
+  #main {
+    padding: 0px 0 65px 0;
+  }
+  .table-responsive {
+    border: unset;
+  }
+  .dangky {
+    padding: 30px 0px 89px 0px;
+  }
+  .dangky .left_dangky {
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .dangky .left_dangky .logo_text {
+    margin: auto;
+  }
+  .dangky .right_dangky {
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .dangky .right_dangky .form_dk {
+    margin: auto;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=dangky.css.map */

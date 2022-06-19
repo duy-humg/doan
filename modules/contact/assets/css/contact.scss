@@ -1,0 +1,109 @@
+.contact-main {
+    background: #fff;
+
+    .title-module {
+        padding: 15px 20px 15px 30px;
+        border-bottom: 1px solid #eeeeee;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #333333;
+        font-weight: bold;
+    }
+
+    .wapper-content-page {
+        padding: 20px;
+        @media(max-width: 767px){
+            padding: 20px 0;
+        }
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            height: 40px;
+            border: 1px solid #ddd;
+            padding: 14px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        textarea {
+            width: 100%;
+            //border-radius: 5px;
+            padding: 14px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+
+        }
+
+        input[type="submit"] {
+            text-align: center;
+            background: #1caf4d;
+            color: #ffffff;
+            padding: 12px 40px;
+            border: none;
+            display: block;
+            text-transform: uppercase;
+            border-radius: 4px;
+            //margin: 0 auto;
+            //margin-top: 15px;
+        }
+    }
+}
+iframe{
+    max-width: 100% !important;
+}
+.infor_contact1{
+    line-height: 25px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    pre{
+        line-height: 28px;
+        overflow: unset;
+        font-family: Roboto;
+        margin-bottom: 10px;
+    }
+    @media(max-width: 767px){
+        padding-right: 10px;
+    }
+}
+
+.from {
+    .p7 {
+        margin-bottom: 20px !important;
+        line-height: 25px;
+    }
+}
+.contact_form{
+    .send{
+        margin-top: 10px;
+        .xacminh{
+           font-size: 14px;
+            width: 35% !important;
+            margin: 0!important;
+            border-radius: 0!important;
+        }
+        .code-view{
+            img{
+                border: 1px solid #eeeeee;
+                padding: 4px;
+                margin-left: 10px;
+
+            }
+            i{
+                margin-left: 10px;
+                font-size: 20px;
+                margin-top: 11px!important;
+                margin-right: 26px;
+            }
+            &:hover{
+                color: #000;
+            }
+        }
+    }
+}
+@media(max-width: 767px){
+    .main-column-left{
+        display: none;
+    }
+    .form{
+        margin-bottom: 30px;
+    }
+}

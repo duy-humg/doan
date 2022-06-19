@@ -1,0 +1,122 @@
+.news_detail .title-module {
+  padding: 10px;
+  background: #6b7b84;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.news_detail .title-module i {
+  margin-right: 10px;
+}
+
+.news_detail .news-title {
+  font-size: 20px;
+  color: #0072bb;
+  font-weight: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.news_detail time {
+  font-size: 13px;
+  margin-bottom: 15px;
+  color: #999999;
+  font-weight: 400;
+  display: block;
+  border-bottom: 1px dotted #ccc;
+}
+
+.news_detail .description {
+  margin-bottom: 30px;
+}
+
+.news_detail .description img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.news_detail .item {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.news_detail .item img {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.news_detail .item:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.news_detail .title-module-related {
+  background: url(../images/boder.jpg) repeat-x center;
+  margin-bottom: 15px;
+}
+
+.news_detail .title-module-related span {
+  background: #fff;
+  font-size: 16px;
+  color: #ac0000;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+
+.news_detail .resized {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.news_detail .resized .title {
+  font-size: 13px;
+  color: #0072bb;
+  font-weight: normal;
+}
+
+.news_detail .resized .title i {
+  margin-right: 6px;
+  color: #000;
+}
+
+.news_detail .resized .title:hover {
+  color: #ac0000;
+}
+
+.news_detail .resized .title:hover i {
+  color: #ac0000;
+}
+
+.news_detail .resized .title span {
+  color: #999999;
+}
+
+.share_bottom .color-print {
+  color: #fff;
+  float: left;
+  display: inline-block;
+  font-size: 10px;
+  padding: 4px 10px;
+  margin-right: 3px;
+}
+
+.share_bottom .color-print i {
+  margin-right: 3px;
+}
+
+.share_bottom .color-print:hover {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+}
+
+.share_bottom .addthis_inline_share_toolbox_ouhp {
+  clear: none !important;
+  float: right;
+}
+/*# sourceMappingURL=detail.css.map */

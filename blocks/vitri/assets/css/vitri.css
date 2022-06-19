@@ -1,0 +1,108 @@
+.content_vitri {
+  background: #fff;
+  z-index: 9999;
+}
+
+.content_vitri .text-vitri {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  background: #72BF44;
+  border-radius: 3px 3px 0px 0px;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.content_vitri .chon-vitri .text-chon {
+  background: #72BF44;
+  padding: 16px;
+  padding-left: 36px;
+  padding-right: 36px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.content_vitri .chon-vitri .text-chon .a-ql {
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  color: #fff;
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0px;
+  border-right: 1px solid #ffffff70;
+  background: unset;
+}
+
+.content_vitri .chon-vitri .nd_vitri .input-search-vitri {
+  padding: 10px;
+}
+
+.content_vitri .chon-vitri .nd_vitri .input-search-vitri input {
+  height: 36px;
+  width: 100%;
+  background: #FFFFFF url("../images/Search.png") no-repeat right 10px top 8px;
+  border: 1px solid #D4D4D4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #9F9F9F;
+}
+
+.content_vitri .chon-vitri .nd_vitri .input-search-vitri input:focus {
+  outline: unset;
+}
+
+.content_vitri .chon-vitri .nd_vitri .list_vitri .box {
+  height: 363px;
+}
+
+.content_vitri .chon-vitri .nd_vitri .list_vitri .box ul {
+  background: #fff;
+  width: 100%;
+  max-height: 363px;
+  overflow: auto;
+}
+
+.content_vitri .chon-vitri .nd_vitri .list_vitri .box ul li a {
+  background: #fff;
+  display: block;
+  padding: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.content_vitri .chon-vitri .nd_vitri .list_vitri .box ul li a:hover {
+  background: rgba(114, 191, 68, 0.08);
+}
+
+.content_vitri .chon-vitri .nd_vitri .list_vitri .box ul::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
+/*# sourceMappingURL=vitri.css.map */

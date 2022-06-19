@@ -1,0 +1,96 @@
+#myModal {
+  height: 100%;
+}
+
+#myModal .modal-dialog .modal-content {
+  margin: 25% 0 0;
+}
+
+#myModal .modal-dialog .modal-content .modal-header {
+  margin: 2px;
+  border: 0;
+  background-color: #252525;
+}
+
+#myModal .modal-dialog .modal-content .modal-header h4.modal-title {
+  text-align: center;
+  color: #ffffff;
+  padding: 5px 0;
+}
+
+#myModal .modal-dialog .modal-content .modal-body {
+  height: 260px;
+  padding: 10px 50px 0;
+  border: 0;
+}
+
+#myModal .modal-dialog .modal-content .modal-body .input-label {
+  margin: 10px 0;
+}
+
+#myModal .modal-dialog .modal-content .modal-body .input-label input[type=checkbox] {
+  display: none;
+}
+
+#myModal .modal-dialog .modal-content .modal-body .input-label label {
+  position: relative;
+  padding-left: 20px;
+  font-weight: normal;
+}
+
+#myModal .modal-dialog .modal-content .modal-body .input-label span:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  border: 1px solid #333333;
+  left: 0;
+  bottom: 3px;
+}
+
+#myModal .modal-dialog .modal-content .modal-body .input-label input[type=checkbox]:checked + label span:before {
+  content: "\2713";
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 16px;
+  background-color: #f7941e;
+  border: 1px solid #f7941e;
+}
+
+#myModal .modal-dialog .modal-content .modal-body form h5 {
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+#myModal .modal-dialog .modal-content .modal-body form textarea {
+  width: 100%;
+}
+
+#myModal .modal-dialog .modal-content .modal-footer {
+  margin: 0;
+  border: 0;
+  padding: 0 15px 15px;
+  margin-top: 15px;
+}
+
+#myModal .modal-dialog .modal-content .modal-footer button {
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  color: #ffffff;
+  background-color: #f7941e;
+  padding: 10px 25px;
+  line-height: unset;
+  height: auto;
+  font-size: 14px;
+}
+
+#myModal .form-group .form-control {
+  font-size: 14px;
+  border-radius: unset;
+}
+/*# sourceMappingURL=quatang.css.map */

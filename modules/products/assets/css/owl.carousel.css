@@ -1,0 +1,102 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: visible;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.owl-controls .owl-pagination{
+	position: absolute;
+	bottom: 23px;
+	width: 100%;
+	text-align: center;
+}
+
+.owl-controls .owl-pagination .owl-page{
+    background: url(../css/images/page-slide.png) no-repeat 0px 0px;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin: 0 7px;
+}
+.owl-controls .owl-pagination .active{
+	background: url(../css/images/page-slide.png) no-repeat -13px 0px;
+    width: 13px;
+    height: 13px;
+}
+
+.owl-controls .owl-buttons div{
+	position: absolute;
+	/*top: 42%;*/
+	width: 55px;
+	height: 55px;
+}
+.owl-controls .owl-buttons .owl-prev{
+	background: url(../css/images/control-slide.png) no-repeat;
+	left: 8%;
+}
+.owl-controls .owl-buttons .owl-next{
+	background: url(../css/images/control-slide.png) no-repeat -65px 0px;
+	right: 8%;
+}
+
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+

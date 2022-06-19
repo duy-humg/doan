@@ -1,0 +1,158 @@
+
+
+<p class="text-chon">
+    <a class="a-ql"  onclick="ql_huyen()" href="javascript:void(0)"><i class="fal fa-chevron-left"></i></a>
+    Chọn Quận huyện Tại Hà Nội</p>
+<input type="hidden" id="id_city_menu" value="1">
+<div class="nd_vitri">
+    <div class="input-search-vitri">
+        <input type="text" id="huyen_search" value="" placeholder="Tìm nhanh tỉnh thành, quận huyện...">
+    </div>
+    <div class="list_vitri">
+        <div class="box box-list-address">
+            <ul>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(976)">Q. Bắc Từ Liêm</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(282)">H. Mỹ Đức</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(281)">H. Ứng Hòa</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(280)">H. Phú Xuyên</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(279)">H. Thường Tín</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(278)">H. Thanh Oai</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(277)">H. Chương Mỹ</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(276)">H. Thạch Thất</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(275)">H. Quốc Oai</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(274)">H. Hoài Đức</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(273)">H. Đan Phượng</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(272)">H. Phúc Thọ</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(271)">H. Ba Vì</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(269)">H. Sơn Tây</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(268)">Q. Hà Đông</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(250)">H. Mê Linh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(20)">H. Thanh Trì</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(19)">Q. Nam Từ Liêm</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(18)">H. Gia Lâm</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(17)">H. Đông Anh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(16)">H. Sóc Sơn</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(9)">Q. Thanh Xuân</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8)">Q. Hoàng Mai</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(7)">Q. Hai Bà Trưng</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(6)">Q. Đống Đa</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(5)">Q. Cầu Giấy</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(4)">Q. Long Biên</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(3)">Q. Tây Hồ</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(2)">Q. Hoàn Kiếm</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(1)">Q. Ba Đình</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+<script>
+
+    function xa(id) {
+        $.ajax({
+            url: "index.php?module=home&view=home&task=xa&raw=1",
+            type: 'GET',
+            data: {id: id},
+            dataType: 'html',
+            success: function (data) {
+
+                $(".chon-vitri").html(data);
+                // $(".item-service"+$i).remove();
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert('Có lỗi trong quá trình đưa lên máy chủ. Xin bạn vui lòng kiểm tra lỗi kết nối.');
+            }
+        });
+    }
+
+    $(document).ready(function () {
+
+        $("#huyen_search").keypress(function(){
+            huyen_search =  $("#huyen_search").val();
+            id_city_menu =  $("#id_city_menu").val();
+
+
+            let str = huyen_search;
+
+            if(str.length>=1){
+                $.ajax({
+                    url: "index.php?module=home&view=home&task=search_huyen&raw=1",
+                    type: 'GET',
+                    data: {huyen_search: huyen_search,id_city_menu:id_city_menu},
+                    dataType: 'html',
+                    success: function (data) {
+
+                        $(".box-list-address").html(data);
+                        // $(".item-service"+$i).remove();
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        alert('Có lỗi trong quá trình đưa lên máy chủ. Xin bạn vui lòng kiểm tra lỗi kết nối.');
+                    }
+                });
+            }
+        });
+    });
+
+
+
+
+</script>

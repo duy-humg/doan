@@ -1,0 +1,115 @@
+.contact-main {
+  background: #fff;
+}
+
+.contact-main .title-module {
+  padding: 15px 20px 15px 30px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: bold;
+}
+
+.contact-main .wapper-content-page {
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+  .contact-main .wapper-content-page {
+    padding: 20px 0;
+  }
+}
+
+.contact-main .wapper-content-page input[type="text"], .contact-main .wapper-content-page input[type="email"] {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ddd;
+  padding: 14px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.contact-main .wapper-content-page textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-main .wapper-content-page input[type="submit"] {
+  text-align: center;
+  background: #1caf4d;
+  color: #ffffff;
+  padding: 12px 40px;
+  border: none;
+  display: block;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+iframe {
+  max-width: 100% !important;
+}
+
+.infor_contact1 {
+  line-height: 25px;
+  margin-bottom: 25px;
+  padding-left: 10px;
+}
+
+.infor_contact1 pre {
+  line-height: 28px;
+  overflow: unset;
+  font-family: Roboto;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .infor_contact1 {
+    padding-right: 10px;
+  }
+}
+
+.from .p7 {
+  margin-bottom: 20px !important;
+  line-height: 25px;
+}
+
+.contact_form .send {
+  margin-top: 10px;
+}
+
+.contact_form .send .xacminh {
+  font-size: 14px;
+  width: 35% !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.contact_form .send .code-view img {
+  border: 1px solid #eeeeee;
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.contact_form .send .code-view i {
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 11px !important;
+  margin-right: 26px;
+}
+
+.contact_form .send .code-view:hover {
+  color: #000;
+}
+
+@media (max-width: 767px) {
+  .main-column-left {
+    display: none;
+  }
+  .form {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

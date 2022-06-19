@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ebebeb !important;
+  margin: 10px 0px;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body section {
+  padding: 0;
+}
+
+body section .container {
+  padding: 0;
+}
+
+body section .container .col-md-12 {
+  padding: 0;
+}
+
+body section .container #body-content {
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+
+body section .container #body-content h3 {
+  font-weight: bold;
+  color: #283041;
+  padding: 15px;
+  margin: 0;
+  font-size: 18px;
+}
+
+body section .container #body-content hr {
+  background-color: #e5e5e5;
+  height: 1px;
+  border: 0;
+  margin: 0;
+}
+
+body section .container #body-content .main-content {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  body section .container #body-content .main-content {
+    width: 90%;
+  }
+}
+
+body section .container #body-content .main-content label {
+  margin: 10px 0;
+  color: #333333;
+  font-size: 14px;
+}
+
+body section .container #body-content .main-content label span {
+  color: #ff2626;
+}
+
+body section .container #body-content .main-content small {
+  display: block;
+  color: #999999;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+body section .container #body-content .main-content input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #dddddd;
+  line-height: 1;
+}
+
+body section .container #body-content .main-content .btn {
+  width: 50%;
+  color: #ffffff;
+  height: 40px;
+  background-color: #f7941e;
+  display: block;
+  margin: 20px auto 20px;
+  border-radius: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+body section .container #body-content .main-content p {
+  text-align: left;
+  margin: 0;
+  color: #333333;
+  font-size: 14px;
+}
+
+body section .container #body-content .main-content p a {
+  color: #006cc6;
+}
+/*# sourceMappingURL=order_status.css.map */

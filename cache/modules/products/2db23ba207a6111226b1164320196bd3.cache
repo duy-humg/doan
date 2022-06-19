@@ -1,0 +1,114 @@
+<style>
+    @media (max-width: 575.98px) {
+
+        td:nth-of-type(1) {
+            min-height: 113px;
+        }
+
+        td:nth-of-type(1):before {
+            content: "";
+        }
+
+        td:nth-of-type(2):before {
+            content: "Đơn giá:";
+        }
+
+        td:nth-of-type(3):before {
+            content: "Số lượng:";
+        }
+
+        td:nth-of-type(4):before {
+            content: "Thành tiền:";
+        }
+    }
+</style>
+
+    <a href="javascript:void(0)" id="close-cart"><img src="http://geni.local:800/images/close-cart.png"
+                                                      alt="close cart"/></a>
+    <div class="title-popup">Giỏ hàng của bạn (2 sản phẩm)</div>
+    <div class="wrapper-tb-pop">
+        <form id="order_form" name="order_form" method="post"
+              action="http://geni.local:800/gio-hang.html">
+            <div class="table-responsive">
+                <table width="100%" border="0" class="table-product-pack table" cellpadding="6">
+                    <thead>
+                    <tr class="head-tr">
+                        <th class="th-column" width='50%'>Sản phẩm</th>
+                        <th class="text-center" width='15%'>Đơn giá</th>
+                        <th class="text-center" width='15%'>Số lượng</th>
+                        <th class="text-right" width='20%'>Thành tiền</th>
+                    </tr>
+                    </thead>
+                    <tbody id="popup-cart">
+
+                    <!--  Product list -->
+                                                        <tr class="tr-pop-1">
+                                        <td width='50%' class="name-product">
+                                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 imb">
+                                                <a class="pull-left" href="http://geni.local:800/mat-biec-bia-mem-tai-ban-2019-tang-kem-so-tay-so-luong-co-han-dp72606.html">
+                                                    <img class="img-responsive" src="http://geni.local:800/images/products/import/2020/tiny/vnb_p88210.jpg"
+                                                         alt="Mắt Biếc (Bìa Mềm) - Tái Bản 2019 (Tặng Kèm Sổ Tay - Số Lượng Có Hạn)">
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-9 col-md-9 col-sm-4 col-xs-8 nmb">
+                                                <h4 class="media-heading">
+                                                    <a href="http://geni.local:800/mat-biec-bia-mem-tai-ban-2019-tang-kem-so-tay-so-luong-co-han-dp72606.html">Mắt Biếc (Bìa Mềm) - Tái Bản 2019 (Tặng Kèm Sổ Tay - Số Lượng Có Hạn)</a>
+                                                </h4>
+                                                <a data-id="72606"
+                                                   data-tr="tr-pop-1"
+                                                   class="del-pro-link"
+                                                   href="#"
+                                                   title="">
+                                                    <i class="far fa-trash-alt"></i><span
+                                                            class="text-del">Bỏ sản phẩm</span>
+                                                </a>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </td>
+                                        <td class="td-price text-right" width='15%'>
+                                                                                    <p>
+                                            <span class="price">
+                                                88.000đ                                            </span>
+                                            </p>
+                                                                                            <p>
+                                                    <span class="old_price "> 110.000đ</span>
+                                                </p>
+                                                                                                                            </td>
+                                        <td width='15%'>
+                                            <div class=" select-box">
+                                                <input readonly style="border: none" type="text"
+                                                       name="quantity_72606"
+                                                       id='quantity_72606'
+                                                       value='2'/>
+                                            </div>
+                                        </td>
+
+                                        <td width='15%' class="text-right">
+                                        <span class="total">
+                                                                                            176.000đ                                                                                    </span>
+                                        </td>
+
+                                    </tr>
+                                    
+                    </tbody>
+                </table>
+            </div>
+            <div class="ft-popup-cart">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-7 col-md-5 col-lg-offset-7 col-sm-12 col-xs-12 text-right price-ajax">
+                        <p class="txt-total-pop">Thành tiền: <span
+                                    class="total-pop">176.000đ</span></p>
+                        <p>Đã bao gồm VAT</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="sub-wrapper-popup col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<!--                        <a href="--><!--" class="fl-left bt-pop view-cart"><i-->
+<!--                                    class="fas fa-angle-left"></i>Tiếp-->
+<!--                            tục mua hàng</a>-->
+                        <a href="javascript:void(0)" class="fl-right bt-pop continue-buy">Tiến hành thanh toán</a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>

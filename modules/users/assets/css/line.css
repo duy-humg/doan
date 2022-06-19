@@ -1,0 +1,115 @@
+.dangky .buoc_dk {
+  width: 541px;
+  margin: 60px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dangky .buoc_dk .b_dk {
+  text-align: center;
+}
+
+.dangky .buoc_dk .b_dk .p-b {
+  margin: 0px auto 9px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 34px;
+  height: 34px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.dangky .buoc_dk .b_dk .p-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.3);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.dangky .buoc_dk .line {
+  margin: 16px 20px 0px;
+  width: 84px;
+  border-top: 1px solid rgba(0, 0, 0, 0.38);
+  position: relative;
+}
+
+.dangky .buoc_dk .line i {
+  position: absolute;
+  top: -5px;
+  right: -2px;
+  font-size: 9px;
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.dangky .buoc_dk .line .fa-chevron-down {
+  display: none;
+}
+
+.dangky .buoc_dk .line_active {
+  border-top: 1px solid #30B566;
+}
+
+.dangky .buoc_dk .line_active i {
+  color: #30B566;
+}
+
+.dangky .buoc_dk .active .p-b {
+  border: unset;
+  background: #30B566;
+}
+
+.dangky .buoc_dk .active .p-text {
+  color: #30B566;
+}
+
+@media (max-width: 550px) {
+  .dangky .buoc_dk {
+    width: 100% !important;
+    display: block !important;
+  }
+  .dangky .buoc_dk .line {
+    height: 50px;
+    width: 1px !important;
+    border-left: unset;
+    position: relative;
+    background: rgba(0, 0, 0, 0.38);
+    margin: 20px auto 20px !important;
+  }
+  .dangky .buoc_dk .line .fa-chevron-right {
+    display: none;
+  }
+  .dangky .buoc_dk .line .fa-chevron-down {
+    display: block !important;
+    top: unset;
+    bottom: -4px;
+    right: -3px;
+  }
+  .dangky .buoc_dk .b_dk {
+    margin-top: 20px;
+  }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+/*# sourceMappingURL=line.css.map */

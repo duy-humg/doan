@@ -1,0 +1,77 @@
+.new-contents {
+    background: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    .title-module{
+    	border-bottom: 2px solid #eee;
+    	padding: 30px;
+        margin-bottom: 20px;
+    	h1{
+    		font-size: 20px;
+    		color: #ce0021;
+    		font-weight: normal;
+    	}
+        .summary_author{
+            margin-top: 15px;
+        }
+    }
+    .list-products{
+    }
+
+    .image-check {
+        padding: 15px 20px;
+        position: relative;
+
+        a {
+            display: block;
+
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 15px;
+            }
+
+            .title-book {
+                margin-bottom: 5px;
+                height: 40px;
+                overflow: hidden;
+            }
+
+            .price-book {
+                height: 26px;
+
+                .final-price {
+                    color: #ce0021;
+                    margin-right: 8px;
+                    font-weight: bold;
+                }
+
+                .price-regular {
+                    color: #999;
+                    text-decoration: line-through;
+                }
+
+                .sale-tag-square {
+                    float: right;
+                    background: #ce0021;
+                    border-radius: 15px;
+                    color: #fff;
+                    padding: 3px 12px;
+                }
+            }
+        }
+        .hh{
+            position: absolute;
+            top: 10px;
+        }
+        &:hover {
+            -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+    }
+    @media (min-width: 1200px){
+        .image-check {
+            width: 20%;
+        }
+    }
+}

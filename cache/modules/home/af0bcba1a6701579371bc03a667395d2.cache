@@ -1,0 +1,69 @@
+
+
+<p class="text-chon">
+    <a class="a-ql"  onclick="ql_xa()" href="javascript:void(0)"><i class="fal fa-chevron-left"></i></a>
+    Chọn Xã/Phường Tại Yên Lập</p>
+<input type="hidden" id="id_city_menu" value="234">
+<div class="nd_vitri">
+    <div class="input-search-vitri">
+        <input type="text" id="huyen_search" value="" placeholder="Tìm nhanh tỉnh thành, quận huyện...">
+    </div>
+    <div class="list_vitri">
+        <div class="box box-list-address">
+            <ul>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8338)">Ngọc Đồng</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8335)">Ngọc Lập</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8332)">Minh Hòa</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8329)">Phúc Khánh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8326)">Đồng Thịnh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8323)">Thượng Long</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8320)">Đồng Lạc</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8317)">Nga Hoàng</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8314)">Hưng Long</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8311)">Trung Sơn</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8308)">Xuân Thủy</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8305)">Xuân Viên</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8302)">Xuân An</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8299)">Lương Sơn</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8296)">Mỹ Lương</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8293)">Mỹ Lung</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(8290)">Yên Lập</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+<script>

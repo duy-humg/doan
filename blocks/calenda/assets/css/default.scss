@@ -1,0 +1,167 @@
+.calenda-default{
+	float: left;width: 374px;
+	margin-bottom: 20px;
+	.content{
+		border-bottom-left-radius: 4px;
+	    border-bottom-right-radius: 4px;
+	    border: 1px solid #e1e1e1;
+	    box-shadow: 0 1px 3px rgba(102, 102, 102, 0.1);
+	}
+	.month {
+	    padding: 10px;
+	    width: 100%;
+	    margin-bottom: 1px;
+	    border: 1px solid #e1e1e1;
+	    border-top-left-radius: 4px;
+	    border-top-right-radius: 4px;
+	    background-color: #fff;
+	    position: relative;
+	    &:before,&:after{
+	    	bottom: -12px;
+			background: url('../images/icon-calenda.png') no-repeat center center;
+			position: absolute;
+			content: '';
+			width: 17px;
+			height: 21px;
+	    }
+	    &:before{
+			left: 10px;
+	    }
+	    &:after{
+	    	right: 10px;
+	    }
+	    ul {
+		    margin: 0;
+		    padding: 0;
+		    li {
+			    font-size: 20px;
+			    text-transform: uppercase;
+			    letter-spacing: 3px;
+			    span{
+			    	font-size: 16px;
+			    	color: #116bb3;
+			    	font-weight: bold;
+		    	    letter-spacing: 0px;
+			    }
+			}
+		}
+		.prev {
+		    float: left;
+		    cursor: pointer;
+		}
+		.next {
+		    float: right;
+		    cursor: pointer;
+		}
+	}
+
+	.weekdays {
+	    margin: 0;
+	    padding: 12px 0;
+	    background-color: #f8f8f8;
+	    li {
+		    display: inline-block;
+		    width: 13%;
+		    color: #666;
+		    text-align: center;
+		    font-size: 16px;
+		}
+	}
+	.days {
+	    padding:  0px;
+	    background: #ffffff;
+	    margin: 0;
+	    li {
+		  	list-style-type: none;
+	        float: left;
+    		width: 14%;
+		    text-align: center;
+		    padding: 5px 0px;
+	        line-height: 36px;
+		    font-size: 16px;
+		    color: #777777;
+		    border-top: 1px solid #ddd;
+		    cursor: pointer;
+		}
+		.light_sky {
+		    color: #bbbbbb;
+		}
+		li .active {
+		    padding: 5px;
+		    background: #1abc9c;
+		    color: white !important
+		}
+	}
+	.tooltips {
+	    position: relative;
+	    .tooltiptext {
+	        visibility: hidden;
+		    font-size: 15px;
+		    line-height: 22px;
+		    text-align: left;
+		    width: 220px;
+		    border: 2px solid #43b9f6;
+		    background-color: #ffffff;
+		    color: #333333;
+		    border-radius: 4px;
+		    padding: 5px;
+		    position: absolute;
+		    z-index: 1;
+		    bottom: 125%;
+		    left: 100%;
+		    margin-left: -60px;
+		    opacity: 0;
+		    transition: opacity 1s;
+		    span{
+		    	display: block;
+		    	padding-left: 10px;
+		    	position: relative;
+		    	margin-bottom: 5px;
+		    	&:before {
+			        content: "";
+				    position: absolute;
+				    top: 8px;
+				    left: 0px;
+				    border-width: 2px;
+				    border-radius: 50%;
+				    border-style: solid;
+				    border-color: #43b9f6;
+				}
+		    }
+		    &:after {
+			    content: "";
+			    position: absolute;
+			    top: 100%;
+			    left: 28px;
+			    margin-left: -5px;
+			    border-width: 8px;
+			    border-style: solid;
+			    border-color: #43b9f6 transparent transparent transparent;
+			}
+		}
+		&:hover .tooltiptext {
+		    visibility: visible;
+		    opacity: 1;
+		}
+	}
+	.light_sky.tooltips{
+		time{
+			border-radius: 50%;
+			background-color: #bbbbbb !important;
+			color: #ffffff !important;
+			display: inline-block;
+			width: 36px;
+			margin: 0px auto;
+		}
+	}
+	.light_to.tooltips,.grey.tooltips{
+		time{
+			border-radius: 50%;
+			background-color: #f8600c !important;
+			color: #ffffff !important;
+			display: inline-block;
+			width: 36px;
+			margin: 0px auto;
+		}
+	}
+}

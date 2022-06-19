@@ -1,0 +1,5 @@
+ FROM fs_products
+						  WHERE ( category_id = 1932 
+						  	OR category_id_wrapper like "%,1932,%" )
+						  	AND published = 1
+						  	 ORDER BY  is_hot DESC 

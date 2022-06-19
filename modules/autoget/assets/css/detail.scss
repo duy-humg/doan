@@ -1,0 +1,127 @@
+.news_detail {
+    .title-module {
+        padding: 10px;
+        background: #6b7b84;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+
+        i {
+            margin-right: 10px;
+        }
+    }
+
+    .news-title {
+        font-size: 20px;
+        color: #0072bb;
+        font-weight: normal;
+        font-weight: 500;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    time {
+        font-size: 13px;
+        margin-bottom: 15px;
+        color: #999999;
+        font-weight: 400;
+        display: block;
+        border-bottom: 1px dotted #ccc;
+    }
+
+    .description {
+        margin-bottom: 30px;
+
+        img {
+            max-width: 100% !important;
+            height: auto !important;
+        }
+    }
+
+    .item {
+        float: left;
+        width: 100%;
+        position: relative;
+
+        img {
+            -moz-transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        &:hover {
+            img {
+                -moz-transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .title-module-related {
+        background: url(../images/boder.jpg) repeat-x center;
+        margin-bottom: 15px;
+
+        span {
+            background: #fff;
+            font-size: 16px;
+            color: #ac0000;
+            text-transform: uppercase;
+            padding-right: 10px;
+        }
+    }
+
+    .resized {
+        margin-bottom: 10px;
+        color: #fff;
+
+        .content-item {}
+
+        .title {
+            font-size: 13px;
+            color: #0072bb;
+            font-weight: normal;
+
+            i {
+                margin-right: 6px;
+                color: #000;
+            }
+
+            &:hover {
+                color: #ac0000;
+
+                i {
+                    color: #ac0000;
+                }
+            }
+
+            span {
+                color: #999999;
+            }
+        }
+    }
+}
+
+.share_bottom {
+    .color-print {
+        color: #fff;
+        float: left;
+        display: inline-block;
+        font-size: 10px;
+        padding: 4px 10px;
+        margin-right: 3px;
+        i {
+            margin-right: 3px;
+        }
+
+        &:hover {
+            transition: all .2s ease-in-out;
+            transform: translateY(-4px);
+        }
+    }
+    .addthis_inline_share_toolbox_ouhp{
+    	clear: none !important;
+    	float: right;
+    }
+}

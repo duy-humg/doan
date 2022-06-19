@@ -1,0 +1,194 @@
+.content1 {
+  border-bottom: 1px solid #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 15px 0 15px;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .content1 {
+    display: none;
+  }
+}
+
+.content1 .content1-left {
+  position: relative;
+  float: left;
+  width: 60%;
+}
+
+@media (max-width: 767px) {
+  .content1 .content1-left {
+    display: block;
+    width: 100%;
+  }
+}
+
+.content1 .content1-left .title {
+  line-height: 30px;
+  padding: 0 20px 20px 0;
+  font-size: 26px;
+  color: #fff;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.content1 .content1-right {
+  float: right;
+  width: 50%;
+}
+
+.content1 .content1-right ul {
+  list-style-type: none;
+}
+
+.content1 .content1-right ul li {
+  float: none;
+}
+
+.content1 .content1-right ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content1 .content1-right ul li a img {
+  width: 61.5%;
+  float: left;
+  padding-bottom: 29px;
+  padding-left: 20px;
+}
+
+.content1 .content1-right ul li a p {
+  color: #333333;
+  float: left;
+  word-wrap: break-word;
+  padding: 10px 0px 0px 15px;
+  font-size: 18px;
+}
+
+.content2-1 {
+  margin: 10px 15px;
+}
+
+.content2-1 .row {
+  margin: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.next-prev-page ul {
+  width: 20%;
+  margin: 0 auto;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.next-prev-page ul li {
+  border: 1px solid #e5e5e5;
+  margin: 0px 2px;
+}
+
+.next-prev-page ul li a {
+  padding: 5px;
+  color: #333333;
+}
+
+.next-prev-page ul li:hover {
+  background-color: #252525;
+}
+
+.next-prev-page ul li:hover > a {
+  color: #fff;
+}
+
+.img_ct {
+  max-width: 240px;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-4 {
+    width: 27%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-8 {
+    width: 73%;
+  }
+}
+
+.content2-1 {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .content2-1 {
+    display: none;
+  }
+}
+
+.content2-1 .title {
+  position: absolute;
+  bottom: 4px;
+  right: 7px;
+  padding: 0 20px 5px 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .content2-1a .img_mobile {
+    display: block;
+    text-align: center;
+  }
+}
+
+.new_mb .content2-1a {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.content2-1a {
+  margin: 25px 0;
+}
+
+.content2-1a .content2-1b {
+  padding-left: 255px;
+  padding-right: 15px;
+}
+
+@media (max-width: 767px) {
+  .content2-1a .content2-1b {
+    padding: 15px;
+  }
+}
+
+.content2-1a .content2-1b .title1 {
+  line-height: 25px;
+  font-size: 20px;
+  color: #333333;
+  display: block;
+}
+
+.content2-1a .content2-1b time {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 13px;
+  color: #999999;
+  padding-left: 25px;
+  background: url("../images/icon-clock.png") top 0 left 2px no-repeat;
+}
+
+.content2-1a .content2-1b p {
+  color: #666666;
+  font-size: 14px;
+}
+
+.content2-1c {
+  margin: 25px 0;
+}
+/*# sourceMappingURL=tintuc.css.map */

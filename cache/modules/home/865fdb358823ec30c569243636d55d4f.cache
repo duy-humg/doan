@@ -1,0 +1,106 @@
+
+
+<p class="text-chon">
+    <a class="a-ql"  onclick="ql_xa()" href="javascript:void(0)"><i class="fal fa-chevron-left"></i></a>
+    Chọn Xã/Phường Tại H. Mỹ Đức</p>
+<input type="hidden" id="id_city_menu" value="282">
+<div class="nd_vitri">
+    <div class="input-search-vitri">
+        <input type="text" id="huyen_search" value="" placeholder="Tìm nhanh xã/phường">
+    </div>
+    <div class="list_vitri">
+        <div class="box box-list-address">
+            <ul>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10504)">An Phú</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10501)">Hợp Thanh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10498)">Hợp Tiến</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10495)">An Tiến</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10492)">Hùng Tiến</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10489)">Hương Sơn</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10486)">Đốc Tín</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10483)">Vạn Kim</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10480)">Đại Hưng</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10477)">Phù Lưu Tế</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10474)">Phùng Xá</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10471)">Xuy Xá</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10468)">Lê Thanh</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10465)">Hồng Sơn</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10462)">An Mỹ</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10459)">Bột Xuyên</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10456)">Mỹ Thành</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10453)">Phúc Lâm</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10450)">Tuy Lai</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10447)">Thượng Lâm</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10444)">Đồng Tâm</a>
+                    </li>
+                                    <li>
+                        <a href="javascript:void(0)" onclick="xa(10441)">Đại Nghĩa</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    function xa(id) {
+        // alert(1);
+        $.ajax({
+            url: "index.php?module=home&view=home&task=xa_click&raw=1",
+            type: 'GET',
+            data: {id: id},
+            dataType: 'html',
+            success: function (data) {
+
+                // $(".chon-vitri").html(data);
+                // $(".item-service"+$i).remove();
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert('Có lỗi trong quá trình đưa lên máy chủ. Xin bạn vui lòng kiểm tra lỗi kết nối.');
+            }
+        });
+        console.log(id);
+        // alert(1);
+        $(".address_user_menu .a-vitri-menu").click();
+
+    }
+</script>

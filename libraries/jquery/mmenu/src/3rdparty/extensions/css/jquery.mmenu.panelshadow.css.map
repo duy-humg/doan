@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;EAEE;AAIF,AAAA,QAAQ,AAAA,eAAe,CAAC,SAAS,AAAA,UAAU,AAAA,UAAW,CAAA,GAAG;AACzD,QAAQ,CAAC,eAAe,AAAA,SAAS,AAAA,UAAU,AAAA,UAAW,CAAA,GAAG,EACzD;EACC,UAAU,ECkBS,CAAC,CAAC,CAAC,CAAC,IAAI,CAAO,kBAAI;CDjBtC",
+    "sources": [
+        "jquery.mmenu.panelshadow.scss",
+        "../../../core/css/_inc/_variables.scss",
+        "../../../core/css/_inc/_mixins.scss",
+        "../../../core/css/_inc/_sizing.scss",
+        "../../../core/css/_inc/_colors.scss"
+    ],
+    "names": [],
+    "file": "jquery.mmenu.panelshadow.css"
+}

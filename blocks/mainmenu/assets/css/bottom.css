@@ -1,0 +1,25 @@
+.list_menu_ft .title-menu-ft {
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.list_menu_ft .title-menu-ft h5 {
+  margin: 10px 0;
+  color: #888888;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.list_menu_ft ul li {
+  padding: 5px 0px;
+}
+
+.list_menu_ft ul li a {
+  font-size: 13px;
+  color: #888888;
+  padding: 0 5px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=bottom.css.map */
